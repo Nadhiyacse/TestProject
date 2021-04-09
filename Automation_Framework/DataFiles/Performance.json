@@ -1,0 +1,31 @@
+﻿{
+    "agencyLoginUserData": {
+        "userName": "#{GmChinaUserName}",
+        "password": "#{GmChinaPassword}"
+    },
+    "campaignData": {
+        "detailsData": {
+            "campaignName": "Performance Test",
+            "internalId": "",
+            "autoGenerateName": false,
+            "addToWatchlist": true,
+            "description": "",
+            "startDate": "",
+            "endDate": "",
+            "timingComment": "",
+            "agencyContact": "AFT User CN",
+            "creativeContact": "",
+            "clientName": "Test Client",
+            "clientId": "1c9830dc-0a2a-450f-8634-dd0e5718c42d",
+            "product": "Generic",
+            "thirdPartyAdserver": "Adform",
+            "exportMediaCostInformationToAdserver": true,
+            "fourthPartyAdserver": "Other",
+            "traffickingPlacementLevelLandingPage": true,
+            "isCostOfTrackingRate": false,
+            "landingPage": "http://www.adslot.com",
+            "customFields": [
+            ]
+        }
+    }
+}

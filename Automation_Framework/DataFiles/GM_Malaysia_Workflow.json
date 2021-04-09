@@ -1,0 +1,238 @@
+﻿{
+    "agencyLoginUserData": {
+        "userName": "#{GmMalaysiaUserName}",
+        "password": "#{GmMalaysiaPassword}"
+    },
+    "publisherLoginUserData": {
+        "userName": "#{SubPubUserName}",
+        "password": "#{SubPubPassword}"
+    },
+    "campaignData": {
+        "detailsData": {
+            "campaignName": "GM Malaysia Workflow",
+            "internalId": "",
+            "autoGenerateName": false,
+            "addToWatchlist": true,
+            "description": "",
+            "startDate": "",
+            "endDate": "",
+            "timingComment": "",
+            "agencyContact": "AFT User MY",
+            "creativeContact": "",
+            "clientName": "Test Client",
+            "product": "Generic",
+            "thirdPartyAdserver": "Sizmek SAS",
+            "exportMediaCostInformationToAdserver": true,
+            "fourthPartyAdserver": "Other",
+            "traffickingPlacementLevelLandingPage": true,
+            "isCostOfTrackingRate": false,
+            "landingPage": "http://www.adslot.com",
+            "customFields": [
+
+            ]
+        }
+    },
+    "singlePlacements": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "detailTabData": {
+                "name": "Symphony Media Publisher (S) Test",
+                "autoGenerateName": false,
+                "isImportedItem": false,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L100",
+                "format": "F200 (1x1)",
+                "creativeType": "",
+                "devices": [
+
+                ],
+                "landingPage": "",
+                "targetingComments": "",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "Cost Per Read",
+                "goal": 1,
+                "autoCalculateField": "Goal",
+                "ratecardRate": 10,
+                "ratecardCost": 10,
+                "baseRate": 10,
+                "baseCost": 10,
+                "shareOfVoice": ""
+            },
+            "moreTabData": {
+                "purchaseOrder": "",
+                "billingSource": "",
+                "exclusions": [
+                    {
+                        "enabled": true,
+                        "name": "Trafficking",
+                        "metadata": ""
+                    }
+                ]
+            }
+        }
+    ],
+
+    "performancePackages": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "expectedPackageName": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+            "detailTabData": {
+                "autoGenerateName": true,
+                "name": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "startDate": "15 Mar 2019",
+                "endDate": "18 Mar 2019",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Goal",
+                "ratecardRate": 12,
+                "ratecardCost": 12,
+                "baseRate": 6,
+                "baseCost": 6
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+
+    "sponsorshipPackages": [
+        {
+            "sponsorshipPackageName": "Sponsorship Package Placement 2",
+            "publisher": "Symphony Media Publisher (S)",
+            "singlePlacements": [
+                {
+                    "detailTabData": {
+                        "name": "Sponsorship Single Placement 1",
+                        "site": "Symphony Media1",
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "landingPage": "http://www.adslot.com",
+                        "startDate": "15 Mar 2019",
+                        "endDate": "18 Apr 2019",
+                        "goal": 2,
+                        "autoCalculateField": "Goal",
+                        "ratecardRate": 12,
+                        "ratecardCost": 24,
+                        "baseRate": 60,
+                        "baseCost": 120,
+                        "shareOfVoice": "",
+                        "devices": [
+
+                        ]
+                    },
+                    "moreTabData": {
+                        "purchaseOrder": "",
+                        "billingSource": "",
+                        "exclusions": [
+                            {
+                                "enabled": false,
+                                "name": "Trafficking",
+                                "metadata": ""
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+
+    "insertionOrderData": {
+        "ioPublisher": "Symphony Media Publisher",
+        "ioName": "",
+        "insertionOrderIssueData": {
+            "agencyBuyer": "",
+            "agencyContact": "",
+            "publisherContact": "AFT User <symphony.qa+subPub@adslot.com>",
+            "uploadDocument": "",
+            "isClientApproved": true
+        }
+    },
+    "billingData": [
+        {
+            "country": "Australia",
+            "billingItems": [
+                {
+                    "publisher": "Symphony Media Publisher",
+                    "currency": "AUD",
+                    "plannedTotals": "120.45",
+                    "billingAllocationMethod": "Pro Rata",
+                    "isOverride": false
+                }
+            ]
+        }
+    ],
+    "customBillingData": [
+        {
+            "costSources": "1",
+            "currencyType": "",
+            "summaryPlannedTotals": "",
+            "summaryFirstPartyTotals": "",
+            "summaryActualTotals": "",
+            "customBillingItems": [
+                {
+                    "name": "Symphony Media Publisher (S) Test",
+                    "currency": "AUD",
+                    "plannedTotals": "8.86",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "Sponsorship Single Placement 1",
+                    "currency": "AUD",
+                    "plannedTotals": "106.28",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+                    "currency": "AUD",
+                    "plannedTotals": "5.31",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                }
+            ]
+        }
+    ],
+    "traffickingData": [
+        {
+            "adServer": "Sizmek SAS",
+            "visibleItemCount": 2
+        }
+    ],
+    "mediaSchedule": {
+        "campaignApprovalData": null
+    }
+}

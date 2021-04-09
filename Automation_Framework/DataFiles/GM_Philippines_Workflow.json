@@ -1,0 +1,623 @@
+{
+    "agencyLoginUserData": {
+        "userName": "#{GmPhilippinesUserName}",
+        "password": "#{GmPhilippinesPassword}"
+    },
+    "publisherLoginUserData": {
+        "userName": "#{PhSubPubUserName}",
+        "password": "#{SubPubPassword}"
+    },
+    "campaignData": {
+        "detailsData": {
+            "campaignName": "GM Philippines Workflow",
+            "internalId": "",
+            "autoGenerateName": false,
+            "addToWatchlist": true,
+            "description": "",
+            "startDate": "",
+            "endDate": "",
+            "timingComment": "",
+            "agencyContact": "AFT User PH",
+            "creativeContact": "",
+            "clientName": "Test Client",
+            "product": "Generic",
+            "thirdPartyAdserver": "Facebook",
+            "exportMediaCostInformationToAdserver": true,
+            "fourthPartyAdserver": "Other",
+            "traffickingPlacementLevelLandingPage": true,
+            "isCostOfTrackingRate": false,
+            "landingPage": "http://www.adslot.com",
+            "customFields": []
+        },
+        "exchangeRatesData": {
+            "exchangeRateData": [
+                {
+                    "country": "Philippines",
+                    "baseCurrency": "PHP",
+                    "exchangeCurrency": "USD",
+                    "rate": 5.23
+                }
+            ]
+        },
+        "budgetData": {
+            "budgetData": [
+                {
+                    "country": "Philippines",
+                    "purchaseOrder": "Test Purchase Order",
+                    "currency": "PHP",
+                    "onlineMediaBudget": 1234567.89
+                }
+            ]
+        },
+        "strategyData": {
+            "objectiveSummary": "",
+            "objectiveOne": "",
+            "objectiveTwo": "",
+            "objectiveThree": "",
+            "isGenderMale": false,
+            "age": [],
+            "targetDemographicComment": "",
+            "otherMedia": []
+        }
+    },
+    "singlePlacements": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "detailTabData": {
+                "name": "Single Placement PHP",
+                "autoGenerateName": false,
+                "publisher": "PH Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L100",
+                "format": "F100 (160x600)",
+                "creativeType": "",
+                "devices": [],
+                "landingPage": "",
+                "targetingComments": "",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "currency": "PHP",
+                "exchangeRate": "",
+                "ratecardRate": "66.66667",
+                "ratecardCost": 100,
+                "baseRate": "133.33333",
+                "baseCost": 200,
+                "netRate": 132,
+                "netCost": 198,
+                "shareOfVoice": ""
+            },
+            "classificationsTabData": {
+                "classifications": [
+                    {
+                        "label": "Booking Unit Code",
+                        "option": "COKE"
+                    },
+                    {
+                        "label": "Ad Unit",
+                        "option": "CT GROUP 1"
+                    },
+                    {
+                        "label": "Creative Type",
+                        "option": "MASTER CT 01"
+                    }
+                ]
+            },
+            "trafficTabData": {
+                "platform": "Google AdWords"
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "editData": {
+                "goal": ""
+            },
+            "detailTabData": {
+                "name": "Single Placement USD",
+                "autoGenerateName": false,
+                "publisher": "PH Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L100",
+                "format": "F100 (160x600)",
+                "creativeType": "",
+                "devices": [],
+                "landingPage": "",
+                "targetingComments": "",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "currency": "USD",
+                "exchangeRate": "",
+                "ratecardRate": "66.66667",
+                "ratecardCost": 100,
+                "baseRate": "133.33333",
+                "baseCost": 200,
+                "netRate": 132,
+                "netCost": 198,
+                "shareOfVoice": ""
+            },
+            "classificationsTabData": {
+                "classifications": [
+                    {
+                        "label": "Booking Unit Code",
+                        "option": "COKE"
+                    },
+                    {
+                        "label": "Ad Unit",
+                        "option": "CT GROUP 1"
+                    },
+                    {
+                        "label": "Creative Type",
+                        "option": "MASTER CT 01"
+                    }
+                ]
+            },
+            "trafficTabData": {
+                "platform": "Facebook"
+            }
+        }
+    ],
+    "performancePackages": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "expectedPackageName": "Performance Package PHP",
+            "detailTabData": {
+                "autoGenerateName": false,
+                "name": "Performance Package PHP",
+                "publisher": "PH Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "startDate": "",
+                "endDate": "",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "currency": "PHP",
+                "exchangeRate": "",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Cost",
+                "ratecardRate": 80,
+                "ratecardCost": 120,
+                "baseRate": 400,
+                "baseCost": 600
+            },
+            "classificationsTabData": {
+                "classifications": [
+                    {
+                        "label": "Booking Unit Code",
+                        "option": "COKE"
+                    },
+                    {
+                        "label": "Ad Unit",
+                        "option": "CT GROUP 1"
+                    },
+                    {
+                        "label": "Creative Type",
+                        "option": "MASTER CT 01"
+                    }
+                ]
+            },
+            "trafficTabData": {
+                "platform": "Google AdWords"
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "editData": {
+                "goal": ""
+            },
+            "expectedPackageName": "Performance Package USD",
+            "detailTabData": {
+                "autoGenerateName": false,
+                "name": "Performance Package USD",
+                "publisher": "PH Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "startDate": "",
+                "endDate": "",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "currency": "USD",
+                "exchangeRate": "",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Cost",
+                "ratecardRate": 80,
+                "ratecardCost": 120,
+                "baseRate": 400,
+                "baseCost": 600
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    }
+                ]
+            },
+            "classificationsTabData": {
+                "classifications": [
+                    {
+                        "label": "Booking Unit Code",
+                        "option": "COKE"
+                    },
+                    {
+                        "label": "Ad Unit",
+                        "option": "CT GROUP 1"
+                    },
+                    {
+                        "label": "Creative Type",
+                        "option": "MASTER CT 01"
+                    }
+                ]
+            }
+        }
+    ],
+    "billingData": [
+        {
+            "country": "Philippines",
+            "currency": "Base (PHP)",
+            "billingItems": [
+                {
+                    "publisher": "PH Symphony Media Publisher",
+                    "currency": "PHP",
+                    "plannedTotals": "8,722.00",
+                    "billingAllocationMethod": "Even Monthly",
+                    "override": false
+                }
+            ]
+        },
+        {
+            "country": "Philippines",
+            "currency": "Buy (Multiple)",
+            "billingItems": [
+                {
+                    "publisher": "PH Symphony Media Publisher",
+                    "currency": "PHP",
+                    "plannedTotals": "1,400.00",
+                    "billingAllocationMethod": "Even Monthly",
+                    "override": false
+                },
+                {
+                    "publisher": "PH Symphony Media Publisher",
+                    "currency": "USD",
+                    "plannedTotals": "1,400.00",
+                    "billingAllocationMethod": "Even Monthly",
+                    "override": false
+                }
+            ]
+        }
+    ],
+    "customBillingData": [
+        {
+            "costSources": "3",
+            "currencyType": "Buy (Multiple)",
+            "summaryPlannedTotals": "",
+            "summaryFirstPartyTotals": "",
+            "summaryActualTotals": "",
+            "customBillingItems": [
+                {
+                    "name": "Single Placement PHP",
+                    "currency": "PHP",
+                    "customBillingMonths": [
+                        {
+                            "planned": "",
+                            "firstParty": "",
+                            "actual": "50"
+                        },
+                        {
+                            "planned": "",
+                            "firstParty": "",
+                            "actual": "50"
+                        },
+                        {
+                            "planned": "",
+                            "firstParty": "",
+                            "actual": "50"
+                        },
+                        {
+                            "planned": "",
+                            "firstParty": "",
+                            "actual": "70",
+                            "isLastMonth": true
+                        }
+                    ],
+                    "plannedTotals": "200.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "220.00"
+                },
+                {
+                    "name": "Single Placement USD",
+                    "currency": "USD",
+                    "customBillingMonths": [
+                        {
+                            "planned": "",
+                            "firstParty": "",
+                            "actual": "50"
+                        },
+                        {
+                            "planned": "",
+                            "firstParty": "",
+                            "actual": "50"
+                        },
+                        {
+                            "planned": "",
+                            "firstParty": "",
+                            "actual": "50"
+                        },
+                        {
+                            "planned": "",
+                            "firstParty": "",
+                            "actual": "70",
+                            "isLastMonth": true
+                        }
+                    ],
+                    "plannedTotals": "200.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "220.00"
+                },
+                {
+                    "name": "SP Placement PHP",
+                    "currency": "PHP",
+                    "plannedTotals": "600.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "600.00"
+                },
+                {
+                    "name": "SP Placement USD",
+                    "currency": "USD",
+                    "plannedTotals": "600.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "600.00"
+                },
+                {
+                    "name": "Performance Package PHP",
+                    "currency": "PHP",
+                    "plannedTotals": "600.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "600.00"
+                },
+                {
+                    "name": "Performance Package USD",
+                    "currency": "USD",
+                    "plannedTotals": "600.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "600.00"
+                }
+            ]
+        },
+        {
+            "costSources": "3",
+            "currencyType": "Base (PHP)",
+            "summaryPlannedTotals": "8,722.00",
+            "summaryFirstPartyTotals": "0.00",
+            "summaryActualTotals": "8,846.60",
+            "customBillingItems": [
+                {
+                    "name": "Single Placement PHP",
+                    "currency": "PHP",
+                    "plannedTotals": "200.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "220.00"
+                },
+                {
+                    "name": "Single Placement USD",
+                    "currency": "PHP",
+                    "plannedTotals": "1,046.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "1,150.60"
+                },
+                {
+                    "name": "SP Placement PHP",
+                    "currency": "PHP",
+                    "plannedTotals": "600.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "600.00"
+                },
+                {
+                    "name": "SP Placement USD",
+                    "currency": "PHP",
+                    "plannedTotals": "3,138.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "3,138.00"
+                },
+                {
+                    "name": "Performance Package PHP",
+                    "currency": "PHP",
+                    "plannedTotals": "600.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "600.00"
+                },
+                {
+                    "name": "Performance Package USD",
+                    "currency": "PHP",
+                    "plannedTotals": "3,138.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "3,138.00"
+                }
+            ]
+        }
+    ],
+    "sponsorshipPackages": [
+        {
+            "sponsorshipPackageName": "Sponsorship Package",
+            "publisher": "PH Symphony Media Publisher (S)",
+            "singlePlacements": [
+                {
+                    "editData": {
+                        "goal": 2500
+                    },
+                    "detailTabData": {
+                        "autoGenerateName": false,
+                        "name": "SP Placement PHP",
+                        "site": "Symphony Media1",
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "landingPage": "http://www.adslot.com",
+                        "startDate": "",
+                        "endDate": "",
+                        "goal": 1800,
+                        "autoCalculateField": "Rate",
+                        "currency": "PHP",
+                        "exchangeRate": "",
+                        "ratecardRate": 66.66667,
+                        "ratecardCost": 120,
+                        "baseRate": 333.33333,
+                        "baseCost": 600,
+                        "shareOfVoice": 80,
+                        "devices": []
+                    },
+                    "classificationsTabData": {
+                        "classifications": [
+                            {
+                                "label": "Booking Unit Code",
+                                "option": "COKE"
+                            },
+                            {
+                                "label": "Ad Unit",
+                                "option": "CT GROUP 1"
+                            },
+                            {
+                                "label": "Creative Type",
+                                "option": "MASTER CT 01"
+                            }
+                        ]
+                    },
+                    "trafficTabData": {
+                        "platform": "Google AdWords"
+                    }
+                },
+                {
+                    "editData": {
+                        "goal": ""
+                    },
+                    "detailTabData": {
+                        "autoGenerateName": false,
+                        "name": "SP Placement USD",
+                        "site": "Symphony Media1",
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "landingPage": "http://www.adslot.com",
+                        "startDate": "",
+                        "endDate": "",
+                        "goal": 1800,
+                        "autoCalculateField": "Rate",
+                        "currency": "USD",
+                        "exchangeRate": "",
+                        "ratecardRate": 66.66667,
+                        "ratecardCost": 120,
+                        "baseRate": 333.33333,
+                        "baseCost": 600,
+                        "shareOfVoice": 80,
+                        "devices": []
+                    },
+                    "classificationsTabData": {
+                        "classifications": [
+                            {
+                                "label": "Booking Unit Code",
+                                "option": "COKE"
+                            },
+                            {
+                                "label": "Ad Unit",
+                                "option": "CT GROUP 1"
+                            },
+                            {
+                                "label": "Creative Type",
+                                "option": "MASTER CT 01"
+                            }
+                        ]
+                    },
+                    "trafficTabData": {
+                        "platform": "Facebook"
+                    }
+                }
+            ]
+        }
+    ],
+    "insertionOrderData": {
+        "ioPublisher": "PH Symphony Media Publisher",
+        "ioName": "",
+        "insertionOrderIssueData": {
+            "agencyBuyer": "",
+            "agencyContact": "",
+            "publisherContact": "AFT User <symphony.qa+subPubPH@adslot.com>",
+            "uploadDocument": "",
+            "isClientApproved": true
+        }
+    },
+    "mediaSchedule": {
+        "campaignApprovalData": {
+            "approvers": [
+                "AFT User PH (symphony.qa+aftAgencyPH@adslot.com)"
+            ]
+        }
+    },
+    "traffickingData": [
+        {
+            "adServer": "Google AdWords"
+        },
+        {
+            "adServer": "Facebook"
+        }
+    ]
+}

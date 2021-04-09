@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Actual1st" xml:space="preserve">
+    <value>TOTAL</value>
+  </data>
+  <data name="Actual3rd" xml:space="preserve">
+    <value>TOTAL (Dritte)</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>Hinzufügen</value>
+  </data>
+  <data name="AdvertorialEmail" xml:space="preserve">
+    <value>Redaktionell/E-Mail</value>
+  </data>
+  <data name="AgencyFee" xml:space="preserve">
+    <value>Agenturhonorar</value>
+  </data>
+  <data name="Back" xml:space="preserve">
+    <value>zurück</value>
+  </data>
+  <data name="Base" xml:space="preserve">
+    <value>Brutto</value>
+  </data>
+  <data name="BaseCost" xml:space="preserve">
+    <value>Brutto</value>
+  </data>
+  <data name="BillingSource" xml:space="preserve">
+    <value>Rechnungsherkunft</value>
+  </data>
+  <data name="BriefSentSuccess" xml:space="preserve">
+    <value>Email Lieferung gelungen</value>
+  </data>
+  <data name="Client" xml:space="preserve">
+    <value>Kunde</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Kosten</value>
+  </data>
+  <data name="CostBasis" xml:space="preserve">
+    <value>Basiskosten</value>
+  </data>
+  <data name="CPM" xml:space="preserve">
+    <value>TKP</value>
+  </data>
+  <data name="CreateIOLnkTxt" xml:space="preserve">
+    <value>Erstellen</value>
+  </data>
+  <data name="CreativeType" xml:space="preserve">
+    <value>Werbemittel-Typ</value>
+  </data>
+  <data name="Dates" xml:space="preserve">
+    <value>Termine</value>
+  </data>
+  <data name="Delivery" xml:space="preserve">
+    <value>Lieferung</value>
+  </data>
+  <data name="Discount1" xml:space="preserve">
+    <value>Volums-Rabatt</value>
+  </data>
+  <data name="Discount2" xml:space="preserve">
+    <value>Agenturgruppen-Rabatt</value>
+  </data>
+  <data name="Discount3" xml:space="preserve">
+    <value>Agentur-Rabatt</value>
+  </data>
+  <data name="Discount4" xml:space="preserve">
+    <value>Sonder-Rabatt 1</value>
+  </data>
+  <data name="Discount5" xml:space="preserve">
+    <value>Sonder-Rabatt 2</value>
+  </data>
+  <data name="Discount6" xml:space="preserve">
+    <value>Sonder-Rabatt 3</value>
+  </data>
+  <data name="Goal" xml:space="preserve">
+    <value>Ziel</value>
+  </data>
+  <data name="GoalOptional" xml:space="preserve">
+    <value>Ziel (optional)</value>
+  </data>
+  <data name="Height" xml:space="preserve">
+    <value>Höhe</value>
+  </data>
+  <data name="IOSignedOffSuccess" xml:space="preserve">
+    <value>Das Einsetzen Bestellung wurde erfolgreich abmelden</value>
+  </data>
+  <data name="L2NavigationBillingTxt" xml:space="preserve">
+    <value>Abrechnung</value>
+  </data>
+  <data name="L2NavigationBriefsProposalsTxt" xml:space="preserve">
+    <value>Briefing und Angebote</value>
+  </data>
+  <data name="L2NavigationCampaignDetailsTxt" xml:space="preserve">
+    <value>Angaben</value>
+  </data>
+  <data name="L2NavigationCreateCampaignTxt" xml:space="preserve">
+    <value>Kampagne erstellen</value>
+  </data>
+  <data name="L2NavigationInsertionOrderTxt" xml:space="preserve">
+    <value>Buchungsauftrag</value>
+  </data>
+  <data name="L2NavigationMarketplaceTxt" xml:space="preserve">
+    <value>Marketplace</value>
+  </data>
+  <data name="L2NavigationMediaScheduleTxt" xml:space="preserve">
+    <value>Mediaplan</value>
+  </data>
+  <data name="L2NavigationReportsTxt" xml:space="preserve">
+    <value>Berichte</value>
+  </data>
+  <data name="L2NavigationTrafficTxt" xml:space="preserve">
+    <value>Traffic</value>
+  </data>
+  <data name="LandingPage" xml:space="preserve">
+    <value>Zielseite</value>
+  </data>
+  <data name="LineUpdateSuccess" xml:space="preserve">
+    <value>Belegzeile erfolgreich aktualisiert</value>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>Platzierung</value>
+  </data>
+  <data name="MediaScheduleItemAddSuccess" xml:space="preserve">
+    <value>Planposition wurde erfolgreich hinzugefügt</value>
+  </data>
+  <data name="NetCost" xml:space="preserve">
+    <value>Net/Net</value>
+  </data>
+  <data name="NetCostInclPrepay" xml:space="preserve">
+    <value>Net/Net abzügl. Skonto</value>
+  </data>
+  <data name="NoItemsToDisplayMsg" xml:space="preserve">
+    <value>Es sind keine Positionen zum Anzeigen vorhanden</value>
+  </data>
+  <data name="Ordered" xml:space="preserve">
+    <value>Angefordert</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Weitere</value>
+  </data>
+  <data name="OtherCostItemCreatedSuccess" xml:space="preserve">
+    <value>Sonstige Kosten Eintrag wurde erfolgreich erstellt</value>
+  </data>
+  <data name="PackageCreatedSuccess" xml:space="preserve">
+    <value>Paket erfolgreich erstellt</value>
+  </data>
+  <data name="PerformanceAddSuccess" xml:space="preserve">
+    <value>Fertig! Performance Paket wurde dem Medienplan hinzugefügt</value>
+  </data>
+  <data name="PlacementAddSuccess" xml:space="preserve">
+    <value>Fertig! Platzierung hinzugefügt</value>
+  </data>
+  <data name="PrepayDiscount" xml:space="preserve">
+    <value>Skonto</value>
+  </data>
+  <data name="ProposalItemsImportSuccess" xml:space="preserve">
+    <value>Positionen wurden erfolgreich in den Mediaplan importiert</value>
+  </data>
+  <data name="Publisher" xml:space="preserve">
+    <value>Vermarkter</value>
+  </data>
+  <data name="PurchaseCost" xml:space="preserve">
+    <value>Net</value>
+  </data>
+  <data name="PurchaseOrder" xml:space="preserve">
+    <value>Bestellung</value>
+  </data>
+  <data name="PurchaseType" xml:space="preserve">
+    <value>Abrechnungstyp</value>
+  </data>
+  <data name="Ratecard" xml:space="preserve">
+    <value>Preisliste</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Speichern</value>
+  </data>
+  <data name="SearchKeyword" xml:space="preserve">
+    <value>Suche-Keyword</value>
+  </data>
+  <data name="ShowDiscountsLnkTxt" xml:space="preserve">
+    <value>Anzeigen</value>
+  </data>
+  <data name="Site" xml:space="preserve">
+    <value>Werbeträger</value>
+  </data>
+  <data name="StandardDisplay" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="TotalCost" xml:space="preserve">
+    <value>Gesamt</value>
+  </data>
+  <data name="TraffickingUnderwayMsg" xml:space="preserve">
+    <value>Trafficking wird derzeit für diese Kampagne ausgeführt. Versuchen Sie es später erneut.</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>Wert</value>
+  </data>
+  <data name="VendorCommission" xml:space="preserve">
+    <value>Verkäuferprovision</value>
+  </data>
+  <data name="Width" xml:space="preserve">
+    <value>Breite</value>
+  </data>
+  <data name="Devices" xml:space="preserve">
+    <value>Device</value>
+  </data>
+  <data name="TotalOtherCost" xml:space="preserve">
+    <value>Gesamt (Weitere Kosten)</value>
+  </data>
+  <data name="ImportSuccessMessage" xml:space="preserve">
+    <value>Die Planpositionen wurden erfolgreich importiert </value>
+  </data>
+  <data name="ClientCost" xml:space="preserve">
+    <value>Kundenpreis %</value>
+  </data>
+  <data name="CreateCampaign" xml:space="preserve">
+    <value>Kampagne erstellen</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Preis</value>
+  </data>
+  <data name="MediaSchedule" xml:space="preserve">
+    <value>Mediaplan</value>
+  </data>
+  <data name="BriefsAndProposals" xml:space="preserve">
+    <value>Briefing und Angebote</value>
+  </data>
+  <data name="Logout" xml:space="preserve">
+    <value>Abmelden</value>
+  </data>
+  <data name="MarketPlace" xml:space="preserve">
+    <value>Marketplace</value>
+  </data>
+  <data name="Classification" xml:space="preserve">
+    <value>Klassifikationen</value>
+  </data>
+  <data name="GoalImpressions" xml:space="preserve">
+    <value>Ziel (Impressions)</value>
+  </data>
+  <data name="DateFormat" xml:space="preserve">
+    <value>{0:dd.MM.yyyy}</value>
+  </data>
+  <data name="ConfirmMediaSchedule" xml:space="preserve">
+    <value>Mediaplan bestätigen</value>
+  </data>
+  <data name="LineItemsSuccessfullyConfirmedMsg" xml:space="preserve">
+    <value>Die Belegzeilen wurden erfolgreich bestätigt.</value>
+  </data>
+</root>

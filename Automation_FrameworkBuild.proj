@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="FullBuild"  xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+    <ItemGroup>
+        <!-- define all the configurations that should build-->
+        <AllConfigurations Include="Release"/>
+    </ItemGroup>
+    
+    <PropertyGroup>
+        <CommonBuildScriptsPath  Condition="'$(CommonBuildScriptsPath)' == ''">C:\CommonBuildScripts</CommonBuildScriptsPath>
+        <CommonBuildScriptsFile  Condition="'$(CommonBuildScriptsFile)' == ''">CommonTcBuild.props</CommonBuildScriptsFile>
+        <VSVersion Condition="'$(VSVersion)' == ''">15.0</VSVersion>
+        <ToolsVersion Condition="'$(ToolsVersion)' == ''">15.0</ToolsVersion>
+        <ProjectToBuild Condition="'$(ProjectToBuild)' == ''">Automation_Framework</ProjectToBuild>
+        <RunCodeAnalysis Condition="'$(RunCodeAnalysis)' == ''">true</RunCodeAnalysis>
+        <AssemblyMajor Condition="'$(AssemblyMajor)' == ''">1</AssemblyMajor>
+    </PropertyGroup>
+    
+    <Import Project="$(CommonBuildScriptsPath)\$(CommonBuildScriptsFile)" />
+</Project>
+

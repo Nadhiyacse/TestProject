@@ -1,0 +1,1173 @@
+﻿{
+    "symphonyAdminLoginUserData": {
+        "userName": "#{SymAdminUserName}",
+        "password": "#{SymAdminPassword}"
+    },
+    "symphonyAdminData": {
+        "publishers": [
+            {
+                "name": "Adslot Inventory Vendor",
+                "secondaryLanguageName": null,
+                "address": "Sydney",
+                "country": "Australia",
+                "status": "Active",
+                "isSubscriber": true,
+                "taxNumber": null,
+                "agencyVendorCommission": "10",
+                "logoFilePath": null,
+                "language": "British English",
+                "enablePublisherOverride": true,
+                "contactName": "Auto Test",
+                "contactEmail": "testpub@adslot.com",
+                "contactTelephone": null,
+                "contactFax": null,
+                "taxMedia": true,
+                "access": {
+                    "mediaScheduleExports": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Publisher Media Schedule",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Media Schedule Grid Data Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "insertionOrderExports": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Net Cost)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Prorata Monthly Allocations)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Tax)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO Monthly Allocations Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Australian English",
+                                "metadata": ""
+                            }
+                        }
+                    ]
+                },
+                "users": [
+                    {
+                        "name": "Adslot AG",
+                        "email": "AdslotAG@adslot.com",
+                        "sendPassword": true,
+                        "roles": [
+                            "Administrator",
+                            "Resource Manager",
+                            "Campaign Access",
+                            "Sales"
+                        ]
+                    }
+                ],
+                "sites": [
+                    {
+                        "siteName": "Jjohan's Hair Extensions",
+                        "url": "http://www.symphonymedia.com",
+                        "parentSite": "Symphony Media Parent Publisher > Symphony Media Parent Site"
+                    }
+                ]
+            },
+            {
+                "name": "Symphony Media Publisher",
+                "secondaryLanguageName": null,
+                "address": "Sydney",
+                "country": "Australia",
+                "status": "Active",
+                "isSubscriber": true,
+                "taxNumber": null,
+                "agencyVendorCommission": "10",
+                "logoFilePath": null,
+                "language": "British English",
+                "enablePublisherOverride": true,
+                "contactName": "Auto Test",
+                "contactEmail": "testpub@adslot.com",
+                "contactTelephone": null,
+                "contactFax": null,
+                "taxMedia": true,
+                "access": {
+                    "mediaScheduleExports": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Publisher Media Schedule",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Media Schedule Grid Data Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "insertionOrderExports": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Net Cost)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Prorata Monthly Allocations)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Tax)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO Monthly Allocations Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Australian English",
+                                "metadata": ""
+                            }
+                        }
+                    ]
+                },
+                "users": [
+                    {
+                        "name": "AFT User",
+                        "email": "symphony.qa+subPub@adslot.com",
+                        "sendPassword": true,
+                        "roles": [
+                            "Administrator",
+                            "Resource Manager",
+                            "Campaign Access",
+                            "Sales"
+                        ]
+                    }
+                ],
+                "sites": [
+                    {
+                        "siteName": "Symphony Media1",
+                        "url": "http://www.symphonymedia.com"
+                    },
+                    {
+                        "siteName": "Finance Leader",
+                        "url": "http://www.symphonymedia.com"
+                    }
+                ],
+                "locations": [
+                    {
+                        "site": "Symphony Media1",
+                        "name": "L10",
+                        "isGlobalScope": true
+                    },
+                    {
+                        "site": "Symphony Media1",
+                        "name": "L100",
+                        "isGlobalScope": true
+                    },
+                    {
+                        "site": "Finance Leader",
+                        "name": "L10",
+                        "isGlobalScope": true
+                    },
+                    {
+                        "site": "Finance Leader",
+                        "name": "L100",
+                        "isGlobalScope": true
+                    }
+                ],
+                "formats": [
+                    {
+                        "name": "F10",
+                        "width": 1,
+                        "height": 1,
+                        "isGlobalScope": true
+                    },
+                    {
+                        "name": "F100",
+                        "width": 160,
+                        "height": 600,
+                        "isGlobalScope": true
+                    },
+                    {
+                        "name": "F200",
+                        "width": 1,
+                        "height": 1,
+                        "isGlobalScope": true
+                    }
+                ],
+                "locationFormatMappings": [
+                    {
+                        "site": "Symphony Media1",
+                        "scope": "Global",
+                        "location": "L10",
+                        "format": "F10"
+                    },
+                    {
+                        "site": "Symphony Media1",
+                        "scope": "Global",
+                        "location": "L100",
+                        "format": "F100"
+                    },
+                    {
+                        "site": "Symphony Media1",
+                        "scope": "Global",
+                        "location": "L100",
+                        "format": "F200"
+                    }
+                ]
+            },
+            {
+                "name": "Symphony Media Non-Sub Publisher",
+                "secondaryLanguageName": null,
+                "address": "Sydney",
+                "country": "Australia",
+                "status": "Active",
+                "isSubscriber": false,
+                "taxNumber": null,
+                "agencyVendorCommission": "10",
+                "logoFilePath": null,
+                "language": "British English",
+                "enablePublisherOverride": true,
+                "contactName": "Auto Test",
+                "contactEmail": "testpub@adslot.com",
+                "contactTelephone": null,
+                "contactFax": null,
+                "taxMedia": true,
+                "access": {
+                    "insertionOrderExports": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Net Cost)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Prorata Monthly Allocations)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Tax)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO Monthly Allocations Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Australian English",
+                                "metadata": ""
+                            }
+                        }
+                    ]
+                },
+                "users": [
+                    {
+                        "name": "AFT User",
+                        "email": "symphony.qa+nonsubPub@adslot.com",
+                        "sendPassword": false,
+                        "roles": null
+                    }
+                ],
+                "sites": [
+                    {
+                        "siteName": "TestFlix",
+                        "url": "http://testflix.site"
+                    }
+                ],
+                "locations": [
+                    {
+                        "site": "TestFlix",
+                        "name": "L10",
+                        "isGlobalScope": true
+                    },
+                    {
+                        "site": "TestFlix",
+                        "name": "L100",
+                        "isGlobalScope": true
+                    }
+                ],
+                "formats": [
+                    {
+                        "name": "F10",
+                        "width": 1,
+                        "height": 1,
+                        "isGlobalScope": true
+                    },
+                    {
+                        "name": "F100",
+                        "width": 160,
+                        "height": 600,
+                        "isGlobalScope": true
+                    },
+                    {
+                        "name": "F200",
+                        "width": 1,
+                        "height": 1,
+                        "isGlobalScope": true
+                    }
+                ],
+                "locationFormatMappings": [
+                    {
+                        "site": "TestFlix",
+                        "scope": "Global",
+                        "location": "L10",
+                        "format": "F10"
+                    },
+                    {
+                        "site": "TestFlix",
+                        "scope": "Global",
+                        "location": "L100",
+                        "format": "F100"
+                    },
+                    {
+                        "site": "TestFlix",
+                        "scope": "Global",
+                        "location": "L100",
+                        "format": "F200"
+                    }
+                ]
+            },
+            {
+                "name": "RSA - Symphony Media Publisher",
+                "secondaryLanguageName": null,
+                "address": "South Africa",
+                "country": "South Africa",
+                "status": "Active",
+                "isSubscriber": true,
+                "isRestrictAgencyAccess": true,
+                "restrictAgencyAccessList": [
+                    {
+                        "country": "South Africa",
+                        "agencies": [
+                            "AFT Agency RSA"
+                        ]
+                    }
+                ],
+                "taxNumber": null,
+                "agencyVendorCommission": "10",
+                "logoFilePath": null,
+                "language": "British English",
+                "enablePublisherOverride": true,
+                "contactName": "Auto Test",
+                "contactEmail": "testpub@adslot.com",
+                "contactTelephone": null,
+                "contactFax": null,
+                "taxMedia": true,
+                "access": {
+                    "mediaScheduleExports": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Publisher Media Schedule",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Media Schedule Grid Data Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "insertionOrderExports": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Net Cost)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Prorata Monthly Allocations)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Tax)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO Monthly Allocations Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Australian English",
+                                "metadata": ""
+                            }
+                        }
+                    ]
+                },
+                "users": [
+                    {
+                        "name": "AFT User",
+                        "email": "symphony.qa+subPubRSA@adslot.com",
+                        "sendPassword": true,
+                        "roles": [
+                            "Administrator",
+                            "Resource Manager",
+                            "Campaign Access",
+                            "Sales"
+                        ]
+                    }
+                ],
+                "sites": [
+                    {
+                        "siteName": "Symphony Media1",
+                        "url": "http://www.symphonymedia.com"
+                    }
+                ],
+                "locations": [
+                    {
+                        "site": "Symphony Media1",
+                        "name": "L10",
+                        "isGlobalScope": true
+                    },
+                    {
+                        "site": "Symphony Media1",
+                        "name": "L100",
+                        "isGlobalScope": true
+                    }
+                ],
+                "formats": [
+                    {
+                        "name": "F10",
+                        "width": 1,
+                        "height": 1,
+                        "isGlobalScope": true
+                    },
+                    {
+                        "name": "F100",
+                        "width": 160,
+                        "height": 600,
+                        "isGlobalScope": true
+                    },
+                    {
+                        "name": "F200",
+                        "width": 1,
+                        "height": 1,
+                        "isGlobalScope": true
+                    }
+                ],
+                "locationFormatMappings": [
+                    {
+                        "site": "Symphony Media1",
+                        "scope": "Global",
+                        "location": "L10",
+                        "format": "F10"
+                    },
+                    {
+                        "site": "Symphony Media1",
+                        "scope": "Global",
+                        "location": "L100",
+                        "format": "F100"
+                    },
+                    {
+                        "site": "Symphony Media1",
+                        "scope": "Global",
+                        "location": "L100",
+                        "format": "F200"
+                    }
+                ]
+            },
+            {
+                "name": "PH Symphony Media Publisher",
+                "secondaryLanguageName": null,
+                "address": "Philippines",
+                "country": "Philippines",
+                "status": "Active",
+                "isSubscriber": true,
+                "isRestrictAgencyAccess": false,
+                "taxNumber": null,
+                "agencyVendorCommission": "10",
+                "logoFilePath": null,
+                "language": "British English",
+                "enablePublisherOverride": true,
+                "contactName": "Auto Test",
+                "contactEmail": "testpub@adslot.com",
+                "contactTelephone": null,
+                "contactFax": null,
+                "taxMedia": true,
+                "access": {
+                    "mediaScheduleExports": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Publisher Media Schedule",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Media Schedule Grid Data Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "insertionOrderExports": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Net Cost)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Prorata Monthly Allocations)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Tax)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO Monthly Allocations Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Australian English",
+                                "metadata": ""
+                            }
+                        }
+                    ]
+                },
+                "users": [
+                    {
+                        "name": "AFT User",
+                        "email": "symphony.qa+subPubPH@adslot.com",
+                        "sendPassword": true,
+                        "roles": [
+                            "Administrator",
+                            "Resource Manager",
+                            "Campaign Access",
+                            "Sales"
+                        ]
+                    }
+                ],
+                "sites": [
+                    {
+                        "siteName": "Symphony Media1",
+                        "url": "http://www.symphonymedia.com"
+                    }
+                ],
+                "locations": [
+                    {
+                        "site": "Symphony Media1",
+                        "name": "L10",
+                        "isGlobalScope": true
+                    },
+                    {
+                        "site": "Symphony Media1",
+                        "name": "L100",
+                        "isGlobalScope": true
+                    }
+                ],
+                "formats": [
+                    {
+                        "name": "F10",
+                        "width": 1,
+                        "height": 1,
+                        "isGlobalScope": true
+                    },
+                    {
+                        "name": "F100",
+                        "width": 160,
+                        "height": 600,
+                        "isGlobalScope": true
+                    },
+                    {
+                        "name": "F200",
+                        "width": 1,
+                        "height": 1,
+                        "isGlobalScope": true
+                    }
+                ],
+                "locationFormatMappings": [
+                    {
+                        "site": "Symphony Media1",
+                        "scope": "Global",
+                        "location": "L10",
+                        "format": "F10"
+                    },
+                    {
+                        "site": "Symphony Media1",
+                        "scope": "Global",
+                        "location": "L100",
+                        "format": "F100"
+                    },
+                    {
+                        "site": "Symphony Media1",
+                        "scope": "Global",
+                        "location": "L100",
+                        "format": "F200"
+                    }
+                ]
+            },
+            {
+                "name": "Symphony Media Parent Publisher",
+                "secondaryLanguageName": null,
+                "address": "Australia",
+                "country": "Australia",
+                "status": "Active",
+                "isSubscriber": true,
+                "isRestrictAgencyAccess": false,
+                "taxNumber": null,
+                "agencyVendorCommission": "10",
+                "logoFilePath": null,
+                "language": "British English",
+                "enablePublisherOverride": true,
+                "contactName": "Auto Test",
+                "contactEmail": "testpub@adslot.com",
+                "contactTelephone": null,
+                "contactFax": null,
+                "taxMedia": true,
+                "access": {
+                    "mediaScheduleExports": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Publisher Media Schedule",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Media Schedule Grid Data Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "insertionOrderExports": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Net Cost)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Prorata Monthly Allocations)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Tax)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO Monthly Allocations Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Australian English",
+                                "metadata": ""
+                            }
+                        }
+                    ]
+                },
+                "users": [
+                    {
+                        "name": "AFT User",
+                        "email": "symphony.qa+parentSubPub@adslot.com",
+                        "sendPassword": false,
+                        "roles": [
+                            "Administrator",
+                            "Resource Manager",
+                            "Campaign Access",
+                            "Sales"
+                        ]
+                    }
+                ],
+                "sites": [
+                    {
+                        "siteName": "Symphony Media2",
+                        "url": "http://www.symphonymedia.com"
+                    },
+                    {
+                        "siteName": "Symphony Media Parent Site",
+                        "url": "http://www.symphonymedia.com"
+                    }
+                ],
+                "locations": [
+                    {
+                        "site": "Symphony Media2",
+                        "name": "L10",
+                        "isGlobalScope": true
+                    },
+                    {
+                        "site": "Symphony Media2",
+                        "name": "L100",
+                        "isGlobalScope": true
+                    },
+                    {
+                        "site": "Symphony Media Parent Site",
+                        "name": "L10",
+                        "isGlobalScope": true
+                    },
+                    {
+                        "site": "Symphony Media Parent Site",
+                        "name": "L100",
+                        "isGlobalScope": true
+                    }
+                ],
+                "formats": [
+                    {
+                        "name": "F10",
+                        "width": 1,
+                        "height": 1,
+                        "isGlobalScope": true
+                    },
+                    {
+                        "name": "F100",
+                        "width": 160,
+                        "height": 600,
+                        "isGlobalScope": true
+                    },
+                    {
+                        "name": "F200",
+                        "width": 1,
+                        "height": 1,
+                        "isGlobalScope": true
+                    }
+                ],
+                "locationFormatMappings": [
+                    {
+                        "site": "Symphony Media2",
+                        "scope": "Global",
+                        "location": "L10",
+                        "format": "F10"
+                    },
+                    {
+                        "site": "Symphony Media2",
+                        "scope": "Global",
+                        "location": "L100",
+                        "format": "F100"
+                    },
+                    {
+                        "site": "Symphony Media2",
+                        "scope": "Global",
+                        "location": "L100",
+                        "format": "F200"
+                    },
+                    {
+                        "site": "Symphony Media Parent Site",
+                        "scope": "Global",
+                        "location": "L10",
+                        "format": "F10"
+                    },
+                    {
+                        "site": "Symphony Media Parent Site",
+                        "scope": "Global",
+                        "location": "L100",
+                        "format": "F100"
+                    },
+                    {
+                        "site": "Symphony Media Parent Site",
+                        "scope": "Global",
+                        "location": "L100",
+                        "format": "F200"
+                    }
+                ]
+            }
+        ],
+        "vendors": [
+            {
+                "vendor": "Symphony Media Publisher",
+                "country": "Australia",
+                "taxOtherCosts": true,
+                "categories": [
+                    {
+                        "enabled": true,
+                        "name": "Generic",
+                        "metadata": ""
+                    },
+                    {
+                        "enabled": true,
+                        "name": "NONMEDIA",
+                        "metadata": ""
+                    }
+                ]
+            },
+            {
+                "vendor": "Symphony Media Non-Sub Publisher",
+                "country": "Australia",
+                "taxOtherCosts": true,
+                "categories": [
+                    {
+                        "enabled": true,
+                        "name": "Generic",
+                        "metadata": ""
+                    },
+                    {
+                        "enabled": true,
+                        "name": "NONMEDIA",
+                        "metadata": ""
+                    }
+                ]
+            },
+            {
+                "vendor": "Adslot Inventory Vendor",
+                "country": "Australia",
+                "taxOtherCosts": false,
+                "categories": [
+                    {
+                        "enabled": true,
+                        "name": "Generic",
+                        "metadata": ""
+                    }
+                ]
+            }
+        ],
+        "featureToggles": [
+            {
+                "feature": "PreventBrandChangeAfterIOCreation",
+                "environmentScopes": [
+                    "HAIDES"
+                ]
+            },
+            {
+                "feature": "InsertionOrderGridLandingPage",
+                "environmentScopes": [
+                    "HAIDES",
+                    "ENCANTADIA"
+                ]
+            },
+            {
+                "feature": "FixedNonMediaCostItemBEMediaPlanExportData",
+                "environmentScopes": [
+                    "HAIDES",
+                    "ENCANTADIA"
+                ]
+            },
+            {
+                "feature": "SharedAgencyFeeAgreement",
+                "environmentScopes": [
+                    "HAIDES",
+                    "ENCANTADIA"
+                ]
+            },
+            {
+                "feature": "NzExportUpdate",
+                "environmentScopes": [
+                    "HAIDES",
+                    "ENCANTADIA"
+                ]
+            },
+            {
+                "feature": "LinkedNonMediaPhase1CostPerUnit",
+                "environmentScopes": [
+                    "NARNIA"
+                ]
+            },
+            {
+                "feature": "ForecastUnitCost",
+                "environmentScopes": [
+                    "HAIDES",
+                    "ENCANTADIA"
+                ]
+            },
+            {
+                "feature": "BEProdScheduleChanges",
+                "environmentScopes": [
+                    "HAIDES"                    
+                ]
+            },
+            {
+                "feature": "ATPNCSymphonyAdmin",
+                "environmentScopes": [
+                    "HAIDES",
+                    "ENCANTADIA"
+                ]
+            }            
+        ],
+        "globalCustomFields": [
+            {
+                "applyTo": "Campaign",
+                "type": "MultiSelect",
+                "name": "HSNCodes"
+            },
+            {
+                "applyTo": "Campaign",
+                "type": "Multiline",
+                "name": "CampaignMultiLine1"
+            },
+            {
+                "applyTo": "Campaign",
+                "type": "Text",
+                "name": "CampaignSingleLine1"
+            },
+            {
+                "applyTo": "Campaign",
+                "type": "Text",
+                "name": "CampaignText1"
+            },
+            {
+                "applyTo": "Campaign",
+                "type": "Text",
+                "name": "CampaignText2"
+            },
+            {
+                "applyTo": "Campaign",
+                "type": "Text",
+                "name": "CampaignText3"
+            },
+            {
+                "applyTo": "Client",
+                "type": "Image",
+                "name": "ClientStamp"
+            },
+            {
+                "applyTo": "Client",
+                "type": "Text",
+                "name": "TermsandConditions2"
+            },
+            {
+                "applyTo": "Package",
+                "type": "Text",
+                "name": "PackageText1"
+            },
+            {
+                "applyTo": "Package",
+                "type": "Text",
+                "name": "PackageText2"
+            },
+            {
+                "applyTo": "Placement",
+                "type": "DatePicker",
+                "name": "BriefDate"
+            },
+            {
+                "applyTo": "Placement",
+                "type": "DatePicker",
+                "name": "DraftSubmitted"
+            },
+            {
+                "applyTo": "Placement",
+                "type": "Text",
+                "name": "Remarks"
+            },
+            {
+                "applyTo": "Placement",
+                "type": "Text",
+                "name": "CreativeDimension"
+            },
+            {
+                "applyTo": "Placement",
+                "type": "Multiline",
+                "name": "PlacementMultiLine1"
+            },
+
+            {
+                "applyTo": "Placement",
+                "type": "Text",
+                "name": "Comments"
+            },
+            {
+                "applyTo": "Placement",
+                "type": "Text",
+                "name": "CreativeInformation"
+            },
+            {
+                "applyTo": "Placement",
+                "type": "Text",
+                "name": "AdditionalComment"
+            },
+
+            {
+                "applyTo": "Placement",
+                "type": "Text",
+                "name": "PlacementText1"
+            },
+            {
+                "applyTo": "Placement",
+                "type": "Text",
+                "name": "PlacementText2"
+            }
+        ]
+    }
+}

@@ -1,0 +1,14 @@
+<package>
+  <metadata>
+    <id>SymphonyAutomationTest</id>
+    <version>1.0.0.0</version>
+    <authors>Adslot</authors>   
+    <description>The Symphony Automation Tests in a stand alone package allowing for greater control of where and when they run.</description>
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>   
+    <file src="**\*" target="bin\Release" exclude="DataFiles\**;exclude=Xray\**"/>
+    <file src="DataFiles\**" target="DataFiles" />
+    <file src="Xray\**" target="Xray" />
+  </files>
+</package>

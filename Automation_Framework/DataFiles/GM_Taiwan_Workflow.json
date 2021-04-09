@@ -1,0 +1,182 @@
+{
+    "agencyLoginUserData": {
+        "userName": "#{GmTaiwanUserName}",
+        "password": "#{GmTaiwanPassword}"
+    },
+    "publisherLoginUserData": {
+        "userName": "#{SubPubUserName}",
+        "password": "#{SubPubPassword}"
+    },
+    "campaignData": {
+        "detailsData": {
+            "campaignName": "GM Taiwan Workflow",
+            "addToWatchlist": true,
+            "startDate": "01 Jan 2019",
+            "endDate": "01 Jan 2029",
+            "agencyContact": "AFT User TW",
+            "clientName": "Test Client",
+            "product": "Generic",
+            "thirdPartyAdserver": "Sizmek SAS",
+            "fourthPartyAdserver": "Other",
+            "isCostOfTrackingRate": true,
+            "landingPage": "http://www.adslot.com"
+        }
+    },
+    "singlePlacements": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isImportedItem": true,
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 100
+            },
+            "detailTabData": {
+                "name": "Symphony Media Publisher (S)",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L100",
+                "format": "F200 (1x1)",
+                "creativeType": "Standard Display",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 10,
+                "ratecardCost": 10,
+                "baseRate": 10,
+                "baseCost": 10
+            }
+        }
+    ],
+
+    "performancePackages": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isImportedItem": true,
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 100
+            },
+            "expectedPackageName": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+            "detailTabData": {
+                "autoGenerateName": true,
+                "name": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 10,
+                "ratecardCost": 10,
+                "baseRate": 10,
+                "baseCost": 10
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "creativeType": ""
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": ""
+                    }
+                ]
+            }
+        }
+
+    ],
+
+    "sponsorshipPackages": [
+        {
+            "isImportedItem": true,
+            "sponsorshipPackageName": "Sponsorship Package Placement",
+            "publisher": "Symphony Media Publisher (S)",
+            "singlePlacements": [
+                {
+                    "isCancelledItem": false,
+                    "editData": {
+                        "goal": 100
+                    },
+                    "detailTabData": {
+                        "name": "Sponsorship Single Placement 1",
+                        "site": "Symphony Media1",
+                        "location": "L17",
+                        "format": "F17 (160x600)",
+                        "creativeType": "",
+                        "goal": 1000,
+                        "useRate": true,
+                        "ratecardRate": 10,
+                        "baseRate": 10
+                    }
+                }
+            ]
+        }
+    ],
+
+    "insertionOrderData": {
+        "ioPublisher": "Symphony Media Publisher",
+        "ioName": "",
+        "insertionOrderIssueData": {
+            "agencyBuyer": "",
+            "agencyContact": "",
+            "publisherContact": "AFT User <symphony.qa+subPub@adslot.com>",
+            "uploadDocument": "",
+            "isClientApproved": true
+        }
+    },
+    "billingData": [
+        {
+            "country": "Australia",
+            "currency": "Base (AUD)",
+            "billingItems": [
+                {
+                    "publisher": "Symphony Media Publisher",
+                    "currency": "AUD",
+                    "plannedTotals": "30.00",
+                    "billingAllocationMethod": "Pro Rata",
+                    "override": false
+                }
+            ]
+        }
+    ],
+    "customBillingData": [
+        {
+            "costSources": "1",
+            "currencyType": "",
+            "summaryPlannedTotals": "",
+            "summaryFirstPartyTotals": "",
+            "summaryActualTotals": "",
+            "customBillingItems": [
+                {
+                    "name": "Symphony Media Publisher (S)",
+                    "currency": "AUD",
+                    "plannedTotals": "10.00",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+                    "currency": "AUD",
+                    "plannedTotals": "10.00",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "Symphony_Media_Publisher_Symphony_Media1_L10_(1x1)_D",
+                    "currency": "AUD",
+                    "plannedTotals": "10.00",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                }
+            ]
+        }
+    ],
+    "mediaSchedule": {
+        "campaignApprovalData": null
+    }
+}

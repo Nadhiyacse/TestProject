@@ -1,0 +1,299 @@
+﻿{
+    "agencyLoginUserData": {
+        "userName": "#{GmIndonesiaUserName}",
+        "password": "#{GmIndonesiaPassword}"
+    },
+    "publisherLoginUserData": {
+        "userName": "#{SubPubUserName}",
+        "password": "#{SubPubPassword}"
+    },
+    "campaignData": {
+        "detailsData": {
+            "campaignName": "GM Indonesia Workflow",
+            "internalId": "",
+            "autoGenerateName": false,
+            "addToWatchlist": true,
+            "description": "",
+            "startDate": "",
+            "endDate": "",
+            "timingComment": "",
+            "agencyContact": "AFT User IDO",
+            "creativeContact": "",
+            "clientName": "Test Client",
+            "product": "Generic",
+            "thirdPartyAdserver": "Facebook",
+            "exportMediaCostInformationToAdserver": true,
+            "fourthPartyAdserver": "Other",
+            "traffickingPlacementLevelLandingPage": true,
+            "isCostOfTrackingRate": false,
+            "landingPage": "http://www.adslot.com",
+            "customFields": []
+        },
+        "budgetData": {
+            "budgetData": [
+                {
+                    "country": "Australia",
+                    "purchaseOrder": "Test Purchase Order",
+                    "currency": "AUD",
+                    "onlineMediaBudget": 1234567.89
+                }
+            ]
+        }
+    },
+    "singlePlacements": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 1500
+            },
+            "detailTabData": {
+                "name": "Symphony_Media_Publisher_Symphony_Media1_L100_(1x1)_D",
+                "autoGenerateName": true,
+                "isImportedItem": true,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L100",
+                "format": "F200 (1x1)",
+                "creativeType": "",
+                "devices": [
+
+                ],
+                "landingPage": "",
+                "targetingComments": "",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 120,
+                "ratecardCost": 120,
+                "baseRate": 120,
+                "baseCost": 120,
+                "shareOfVoice": "",
+                "customFields": [
+                    {
+                        "name": "Brief Date",
+                        "type": "DatePicker",
+                        "values": [
+                            "04 Oct 2019"
+                        ]
+                    },
+                    {
+                        "name": "Draft Submitted",
+                        "type": "DatePicker",
+                        "values": [
+
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+
+    "performancePackages": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 1500
+            },
+            "expectedPackageName": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+            "detailTabData": {
+                "autoGenerateName": true,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "startDate": "",
+                "endDate": "",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 120,
+                "ratecardCost": 120,
+                "baseRate": 600,
+                "baseCost": 600
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ],
+                        "customFields": [
+                            {
+                                "name": "Brief Date",
+                                "type": "DatePicker",
+                                "values": [
+
+                                ]
+                            },
+                            {
+                                "name": "Draft Submitted",
+                                "type": "DatePicker",
+                                "values": [
+                                    "04 Sep 2019"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ],
+                        "customFields": [
+                            {
+                                "name": "Brief Date",
+                                "type": "DatePicker",
+                                "values": [
+                                    "08 Sep 2019"
+                                ]
+                            },
+                            {
+                                "name": "Draft Submitted",
+                                "type": "DatePicker",
+                                "values": [
+                                    "09 Sep 2019"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+
+    "sponsorshipPackages": [
+        {
+            "sponsorshipPackageName": "Sponsorship Package Placement",
+            "publisher": "Symphony Media Publisher (S)",
+            "singlePlacements": [
+                {
+                    "isCancelledItem": false,
+                    "editData": {
+                        "goal": 700
+                    },
+                    "detailTabData": {
+                        "name": "Sponsorship Single Placement 1",
+                        "site": "Symphony Media1",
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "landingPage": "http://www.adslot.com",
+                        "startDate": "",
+                        "endDate": "",
+                        "goal": 500,
+                        "autoCalculateField": "Rate",
+                        "ratecardRate": 240,
+                        "ratecardCost": 120,
+                        "baseRate": 1200,
+                        "baseCost": 600,
+                        "shareOfVoice": 80,
+                        "devices": [
+
+                        ],
+                        "customFields": [
+                            {
+                                "name": "Brief Date",
+                                "type": "DatePicker",
+                                "values": [
+
+                                ]
+                            },
+                            {
+                                "name": "Draft Submitted",
+                                "type": "DatePicker",
+                                "values": [
+
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+
+    "mediaSchedule": {
+        "campaignApprovalData": {
+            "uploadDocumentName": "GM_Indonesia_Workflow.docx"
+        }
+    },
+
+    "insertionOrderData": {
+        "ioPublisher": "Symphony Media Publisher",
+        "ioName": "",
+        "insertionOrderIssueData": {
+            "agencyBuyer": "",
+            "agencyContact": "",
+            "publisherContact": "AFT User <symphony.qa+subPub@adslot.com>",
+            "uploadDocument": "",
+            "isClientApproved": true
+        }
+    },
+
+    "billingData": [
+        {
+            "country": "Australia",
+            "currency": "Base (AUD)",
+            "billingItems": [
+                {
+                    "publisher": "Symphony Media Publisher",
+                    "currency": "AUD",
+                    "plannedTotals": "1,319.71",
+                    "billingAllocationMethod": "Even Monthly",
+                    "isOverride": false
+                }
+            ]
+        }
+    ],
+
+    "customBillingData": [
+        {
+            "costSources": "3",
+            "currencyType": "",
+            "summaryPlannedTotals": "1,319.71",
+            "summaryFirstPartyTotals": "0.00",
+            "summaryActualTotals": "1,319.71",
+            "customBillingItems": [
+                {
+                    "name": "Symphony_Media_Publisher_Symphony_Media1_L100_(1x1)_D",
+                    "currency": "AUD",
+                    "plannedTotals": "119.97",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "119.97"
+                },
+                {
+                    "name": "Sponsorship Single Placement 1",
+                    "currency": "AUD",
+                    "plannedTotals": "599.87",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "599.87"
+                },
+                {
+                    "name": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+                    "currency": "AUD",
+                    "plannedTotals": "599.87",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "599.87"
+                }
+            ]
+        }
+    ]
+}

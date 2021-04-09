@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "project": {
+            "key": "QA"
+        },
+        "summary": "#{SymphonyVersion}",
+        "issuetype": {
+            "name": "Test Execution"
+        }
+    },
+    "xrayFields": {
+        "testPlanKey": "#{XrayTestPlanKey}",
+        "environments": [ "#{Octopus.Deployment.Tenant.Name}" ]
+    }
+}

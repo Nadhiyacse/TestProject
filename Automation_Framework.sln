@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Automation_Framework", "Automation_Framework\Automation_Framework.csproj", "{A2447D90-8EFD-4509-A84A-B00CE216AAFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions", "Solutions", "{8BD9DBAD-598E-4729-8707-2EE5CC9BA7F4}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		App|Any CPU = App|Any CPU
+		App|x86 = App|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2447D90-8EFD-4509-A84A-B00CE216AAFC}.App|Any CPU.ActiveCfg = App|Any CPU
+		{A2447D90-8EFD-4509-A84A-B00CE216AAFC}.App|Any CPU.Build.0 = App|Any CPU
+		{A2447D90-8EFD-4509-A84A-B00CE216AAFC}.App|x86.ActiveCfg = App|x86
+		{A2447D90-8EFD-4509-A84A-B00CE216AAFC}.App|x86.Build.0 = App|x86
+		{A2447D90-8EFD-4509-A84A-B00CE216AAFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2447D90-8EFD-4509-A84A-B00CE216AAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2447D90-8EFD-4509-A84A-B00CE216AAFC}.Debug|x86.ActiveCfg = Debug|x86
+		{A2447D90-8EFD-4509-A84A-B00CE216AAFC}.Debug|x86.Build.0 = Debug|x86
+		{A2447D90-8EFD-4509-A84A-B00CE216AAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2447D90-8EFD-4509-A84A-B00CE216AAFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2447D90-8EFD-4509-A84A-B00CE216AAFC}.Release|x86.ActiveCfg = Release|x86
+		{A2447D90-8EFD-4509-A84A-B00CE216AAFC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CFFDDE8-CD9B-47D1-A470-814F996DA44D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,350 @@
+{
+    "agencyLoginUserData": {
+        "userName": "#{GmVietnamUserName}",
+        "password": "#{GmVietnamPassword}"
+    },
+    "publisherLoginUserData": {
+        "userName": "#{SubPubUserName}",
+        "password": "#{SubPubPassword}"
+    },
+    "campaignData": {
+        "detailsData": {
+            "campaignName": "GM_Vietnam Workflow",
+            "internalId": "",
+            "autoGenerateName": false,
+            "addToWatchlist": true,
+            "description": "",
+            "startDate": "",
+            "endDate": "",
+            "timingComment": "",
+            "agencyContact": "AFT User VN",
+            "creativeContact": "",
+            "clientName": "Test Client",
+            "product": "Generic",
+            "thirdPartyAdserver": "Sizmek SAS",
+            "exportMediaCostInformationToAdserver": true,
+            "fourthPartyAdserver": "Other",
+            "traffickingPlacementLevelLandingPage": true,
+            "isCostOfTrackingRate": false,
+            "landingPage": "http://www.adslot.com",
+            "customFields": [
+
+            ]
+        }
+    },
+    "singlePlacements": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isImportedItem": true,
+            "detailTabData": {
+                "name": "Single Placement 1",
+                "autoGenerateName": false,
+                "isImportedItem": true,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L100",
+                "format": "F200 (1x1)",
+                "creativeType": "",
+                "devices": [
+
+                ],
+                "landingPage": "",
+                "targetingComments": "",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "currency": "",
+                "exchangeRate": "",
+                "ratecardRate": 10,
+                "ratecardCost": 10,
+                "baseRate": 10,
+                "baseCost": 10,
+                "shareOfVoice": ""
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "detailTabData": {
+                "name": "Single Placement 2",
+                "autoGenerateName": false,
+                "isImportedItem": true,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L100",
+                "format": "F200 (1x1)",
+                "creativeType": "",
+                "devices": [
+
+                ],
+                "landingPage": "",
+                "targetingComments": "",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 10,
+                "ratecardCost": 10,
+                "baseRate": 10,
+                "baseCost": 10,
+                "shareOfVoice": ""
+            }
+        }
+    ],
+
+    "performancePackages": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isImportedItem": true,
+            "expectedPackageName": "Performance Packages 1",
+            "detailTabData": {
+                "autoGenerateName": true,
+                "name": "Performance Packages 1",
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "startDate": "15 Mar 2019",
+                "endDate": "18 Mar 2019",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "currency": "",
+                "exchangeRate": "",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 12,
+                "ratecardCost": 12,
+                "baseRate": 6,
+                "baseCost": 6
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "expectedPackageName": "Performance Packages 2",
+            "detailTabData": {
+                "autoGenerateName": false,
+                "name": "Performance Packages 2",
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "startDate": "15 Mar 2019",
+                "endDate": "18 Mar 2019",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 12,
+                "ratecardCost": 12,
+                "baseRate": 6,
+                "baseCost": 6
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+
+    "sponsorshipPackages": [
+        {
+            "isImportedItem": true,
+            "sponsorshipPackageName": "Sponsorship Package Placement",
+            "publisher": "Symphony Media Publisher (S)",
+            "singlePlacements": [
+                {
+                    "detailTabData": {
+                        "name": "Sponsorship Single Placement 1",
+                        "site": "Symphony Media1",
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "landingPage": "http://www.adslot.com",
+                        "startDate": "15 Mar 2019",
+                        "endDate": "18 Apr 2019",
+                        "goal": 500,
+                        "autoCalculateField": "Rate",
+                        "currency": "",
+                        "exchangeRate": "",
+                        "ratecardRate": 24,
+                        "ratecardCost": 12,
+                        "baseRate": 120,
+                        "baseCost": 60,
+                        "shareOfVoice": 80,
+                        "devices": [
+
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "sponsorshipPackageName": "Sponsorship Package Placement 2",
+            "publisher": "Symphony Media Publisher (S)",
+            "singlePlacements": [
+                {
+                    "detailTabData": {
+                        "name": "Sponsorship Single Placement 2",
+                        "site": "Symphony Media1",
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "landingPage": "http://www.adslot.com",
+                        "startDate": "15 Mar 2019",
+                        "endDate": "18 Apr 2019",
+                        "goal": 500,
+                        "autoCalculateField": "Rate",
+                        "ratecardRate": 24,
+                        "ratecardCost": 12,
+                        "baseRate": 120,
+                        "baseCost": 60,
+                        "shareOfVoice": 80,
+                        "devices": [
+
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+
+    "insertionOrderData": {
+        "ioPublisher": "Symphony Media Publisher",
+        "ioName": "",
+        "insertionOrderIssueData": {
+            "agencyBuyer": "",
+            "agencyContact": "",
+            "publisherContact": "AFT User <symphony.qa+subPub@adslot.com>",
+            "uploadDocument": "",
+            "isClientApproved": true
+        }
+    },
+    "billingData": [
+        {
+            "country": "",
+            "currency": "",
+            "billingItems": [
+                {
+                    "publisher": "Symphony Media Publisher",
+                    "currency": "AUD",
+                    "plannedTotals": "151.24",
+                    "billingAllocationMethod": "Even Monthly",
+                    "isOverride": true
+                }
+            ]
+        }
+    ],
+    "customBillingData": [
+        {
+            "costSources": "1",
+            "currencyType": "",
+            "summaryPlannedTotals": "",
+            "summaryFirstPartyTotals": "",
+            "summaryActualTotals": "",
+            "customBillingItems": [
+                {
+                    "name": "Single Placement 2",
+                    "currency": "AUD",
+                    "plannedTotals": "9.90",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "Sponsorship Single Placement 2",
+                    "currency": "AUD",
+                    "plannedTotals": "59.40",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "Performance Packages 2",
+                    "currency": "AUD",
+                    "plannedTotals": "5.94",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "Single Placement 1",
+                    "currency": "AUD",
+                    "plannedTotals": "10.00",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "Performance Packages 1",
+                    "currency": "AUD",
+                    "plannedTotals": "6.00",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "Symphony_Media_Publisher_Symphony_Media1_L10_(1x1)_D",
+                    "currency": "AUD",
+                    "plannedTotals": "60.00",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                }
+            ]
+        }
+    ],
+    "mediaSchedule": {
+        "mediaScheduleExportData": {
+            "managerApprovalEmail": ""
+        },
+        "campaignApprovalData": null
+    }
+}

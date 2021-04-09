@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Auto.Bindings.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="HyruleURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://hyrule.adslot.com/Public/Login.aspx?ReturnUrl=%2f</Value>
+    </Setting>
+    <Setting Name="HyruleBrowser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Chrome</Value>
+    </Setting>
+    <Setting Name="HyrulePassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">#{HyrulePassword}</Value>
+    </Setting>
+    <Setting Name="Environment" Type="System.String" Scope="User">
+      <Value Profile="(Default)">hyrule</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,341 @@
+{
+    "agencyLoginUserData": {
+        "userName": "#{OmgNetherlandsUserName}",
+        "password": "#{OmgNetherlandsPassword}"
+    },
+    "publisherLoginUserData": {
+        "userName": "#{SubPubUserName}",
+        "password": "#{SubPubPassword}"
+    },
+    "campaignData": {
+        "detailsData": {
+            "campaignName": "OMG Netherlands Workflow",
+            "internalId": "",
+            "autoGenerateName": false,
+            "addToWatchlist": true,
+            "description": "",
+            "startDate": "",
+            "endDate": "",
+            "timingComment": "",
+            "agencyContact": "AFT User NL",
+            "creativeContact": "",
+            "clientName": "Test Client",
+            "product": "Generic",
+            "thirdPartyAdserver": "Sizmek SAS",
+            "exportMediaCostInformationToAdserver": true,
+            "fourthPartyAdserver": "Other",
+            "traffickingPlacementLevelLandingPage": true,
+            "isCostOfTrackingRate": false,
+            "landingPage": "http://www.adslot.com",
+            "customFields": []
+        },
+        "budgetData": {
+            "budgetData": [
+                {
+                    "country": "Australia",
+                    "purchaseOrder": "PO-1234-5678",
+                    "currency": "AUD",
+                    "onlineMediaBudget": 1234567.89
+                }
+            ]
+        }
+    },
+    "singlePlacements": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "editData": {
+                "goal": ""
+            },
+            "detailTabData": {
+                "name": "AFT Agency NL_Test Client_Generic_{CampaignName}_{PlacementStartDate}_TEXT_Symphony Media Publisher_Symphony Media1_L100_F100_160X600_CPM_Headshot",
+                "autoGenerateName": true,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L100",
+                "format": "F100 (160x600)",
+                "creativeType": "Text",
+                "devices": [],
+                "landingPage": "",
+                "targetingComments": "Headshot",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "startDate": "",
+                "endDate": "",
+                "clientAgreement": "Media aut 2020",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": "66.66667",
+                "ratecardCost": 100,
+                "baseRate": "133.33333",
+                "baseCost": 200,
+                "shareOfVoice": ""
+            },
+            "classificationsTabData": {
+                "classifications": [
+                    {
+                        "label": "Item Type",
+                        "option": "Media"
+                    },
+                    {
+                        "label": "Classification",
+                        "option": "Affiliate"
+                    }
+                ]
+            }
+        }
+    ],
+    "performancePackages": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "editData": {
+                "goal": ""
+            },
+            "expectedPackageName": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1500",
+            "detailTabData": {
+                "autoGenerateName": true,
+                "name": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1500",
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "startDate": "",
+                "endDate": "",
+                "clientAgreement": "Media aut 2020",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Cost",
+                "ratecardRate": 80,
+                "ratecardCost": 120,
+                "baseRate": 400,
+                "baseCost": 600
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "Video",
+                        "package": "",
+                        "shareOfVoice": "",
+                        "devices": []
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "Audio",
+                        "package": "",
+                        "shareOfVoice": "",
+                        "devices": []
+                    }
+                ]
+            },
+            "classificationsTabData": {
+                "classifications": [
+                    {
+                        "label": "Item Type",
+                        "option": "Media"
+                    },
+                    {
+                        "label": "Classification",
+                        "option": "Affiliate"
+                    }
+                ]
+            }
+        }
+    ],
+    "sponsorshipPackages": [
+        {
+            "sponsorshipPackageName": "Sponsorship Package",
+            "publisher": "Symphony Media Publisher (S)",
+            "singlePlacements": [
+                {
+                    "editData": {
+                        "goal": ""
+                    },
+                    "detailTabData": {
+                        "autoGenerateName": false,
+                        "name": "Sponsorship Package Placement",
+                        "site": "Symphony Media1",
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "landingPage": "",
+                        "startDate": "",
+                        "endDate": "",
+                        "clientAgreement": "Media aut 2020",
+                        "goal": 1800,
+                        "autoCalculateField": "Rate",
+                        "ratecardRate": 66.66667,
+                        "ratecardCost": 120,
+                        "baseRate": 333.33333,
+                        "baseCost": 600,
+                        "shareOfVoice": "",
+                        "devices": []
+                    },
+                    "classificationsTabData": {
+                        "classifications": [
+                            {
+                                "label": "Item Type",
+                                "option": "Media"
+                            },
+                            {
+                                "label": "Classification",
+                                "option": "Affiliate"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "mediaSchedule": {
+        "campaignApprovalData": null,
+        "mediaScheduleExportData": null
+    },
+    "billingData": [
+        {
+            "country": "Australia",
+            "currency": "",
+            "billingItems": [
+                {
+                    "publisher": "Symphony Media Publisher",
+                    "currency": "AUD",
+                    "plannedTotals": "2,328.48",
+                    "billingAllocationMethod": "Even Monthly",
+                    "override": false
+                }
+            ]
+        }
+    ],
+    "customBillingData": [
+        {
+            "costSources": "2",
+            "currencyType": "",
+            "summaryPlannedTotals": "2,328.48",
+            "summaryFirstPartyTotals": "",
+            "summaryActualTotals": "2,328.48",
+            "customBillingItems": [
+                {
+                    "name": "Non Media Test",
+                    "billedGoal": "",
+                    "currency": "AUD",
+                    "plannedTotals": "970.20",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "970.20"
+                },
+                {
+                    "name": "AFT Agency NL_Test Client_Generic_{CampaignName}_{PlacementStartDate}_TEXT_Symphony Media Publisher_Symphony Media1_L100_F100_160X600_CPM_Headshot",
+                    "billedGoal": "1,234",
+                    "currency": "AUD",
+                    "plannedTotals": "194.04",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "194.04"
+                },
+                {
+                    "name": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1500",
+                    "billedGoal": "1,000",
+                    "currency": "AUD",
+                    "plannedTotals": "582.12",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "582.12"
+                },
+                {
+                    "name": "Sponsorship Package Placement",
+                    "billedGoal": "2,000",
+                    "currency": "AUD",
+                    "plannedTotals": "582.12",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "582.12"
+                }
+            ]
+        }
+    ],
+    "insertionOrderData": {
+        "ioPublisher": "Symphony Media Publisher",
+        "ioName": "",
+        "insertionOrderIssueData": {
+            "agencyBuyer": "",
+            "agencyContact": "",
+            "publisherContact": "AFT User <symphony.qa+subPub@adslot.com>",
+            "uploadDocument": "",
+            "isClientApproved": true
+        }
+    },
+    "traffickingData": [
+        {
+            "adServer": "Sizmek SAS"
+        }
+    ],
+    "nonMediaCostData": [
+        {
+            "isCancelled": true,
+            "isDuplicateItem": true,
+            "editNonMediaCostData": {
+                "name": "Non Media Cost Test Edited",
+                "startDate": "",
+                "endDate": "",
+                "agencyCost": "1500",
+                "description": "Automation edited costs"
+            },
+            "costsTabData": {
+                "cost": {
+                },
+                "vendorAdjustments": [
+                    {
+                        "adjustmentName": "Discount 1",
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Vendor Commissions",
+                        "cost": 19.80
+                    }
+                ],
+                "clientAdjustments": [
+                ],
+                "costSummaries": [
+                    {
+                        "costSummaryName": "Purchase Cost",
+                        "agency": 990.00,
+                        "client": 990.00
+                    },
+                    {
+                        "costSummaryName": "Net Cost",
+                        "agency": 970.20,
+                        "client": 970.20
+                    },
+                    {
+                        "costSummaryName": "Total Cost",
+                        "agency": 970.20,
+                        "client": 1009.01
+                    }
+                ]
+            },
+            "classificationsTabData": {
+                "classifications": [
+                    {
+                        "label": "Item Type",
+                        "option": "Media"
+                    },
+                    {
+                        "label": "Classification",
+                        "option": "Affiliate"
+                    }
+                ]
+            },
+            "name": "Non Media Test",
+            "startDate": "",
+            "endDate": "",
+            "country": "Australia",
+            "vendor": "Symphony Media Publisher",
+            "category": "Generic",
+            "agencyCost": "1000"
+        }
+    ],
+    "columnSettings": [
+        "Billed Goal"
+    ]
+}

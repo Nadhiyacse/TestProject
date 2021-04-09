@@ -1,0 +1,1542 @@
+﻿{
+    "agencyLoginUserData": {
+        "userName": "#{GmAustraliaUserName}",
+        "password": "#{GmAustraliaPassword}"
+    },
+    "symphonyAdminData": {
+        "agencies": [
+            {
+                "masterAgency": "",
+                "name": "AFT Agency AU",
+                "address": "123 Sesame St",
+                "country": "Australia",
+                "status": "Active",
+                "isTestAgency": true,
+                "taxNumber": "",
+                "logoFilePath": "",
+                "insertionOrderEnabled": true,
+                "billingSource": "",
+                "language": "British English",
+                "timeZone": "(UTC+10:00) Canberra, Melbourne, Sydney",
+                "enableAgencyOverride": true,
+                "contactName": "Auto Test",
+                "contactEmail": "autotest@adslot.com",
+                "contactTelephone": "",
+                "uniquePlannerBuyer": false,
+                "authenticationMethod": "Symphony Password",
+                "access": {
+                    "costModel": "GM_Australia",
+                    "placementNamingConvention": "DefaultLineItemName",
+                    "packageNamingConvention": "Default",
+                    "campaignNamingConvention": "Default",
+                    "mediaScheduleExports": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Media Schedule Grid Data Export",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Media Schedule Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "insertionOrderExports": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Net Cost)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Tax)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Prorata Monthly Allocations)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Insertion Order XML Export (2016/03)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Insertion Order XML Export (2017/03)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Insertion Order XML Export (2017/09)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Insertion Order XML Export (2018/09)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export (Prorata Monthly Allocations with Site Breakdown)",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "costModelImports": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "MultiFlight Grid Import Template Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "billingExports": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Billing XML Export (2016/03)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Billing XML Export (2017/03)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Billing XML Export (2017/09)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Billing XML Export (2018/08)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Billing XML Export (2018/09)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Billing XML Export (2018/11)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Billing XML Export (2019/03)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "BCC 9.2.5 Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "publisherDetailExports": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Publisher Details Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "dataMapping": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "DCM",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Sizmek SAS",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Adform",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "thirdPartyAdServers": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "No Ad Serving",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "DCM",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Sizmek SAS",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "FlashTalking",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "AdMonitor",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Facebook",
+                                "metadata": "[Client]_[Campaign Name]_[Objective]_[Format]_[StartEndDate]_[Internal Campaign ID]"
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Google AdWords",
+                                "metadata": "[Client]_[Campaign Name]_[Format]_[StartEndDate]_[Internal Campaign ID]"
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Adform",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "fourthPartyAdServers": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Other",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IAS",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Moat",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Nielsen DAR",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "DoubleVerify",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "languages": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Australian English",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "externalCredentials": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "DCM",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Sizmek SAS",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Adform",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "mediaScheduleViews": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "LockedItems",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "ChangedItems",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Discounts",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Forecast",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Performance",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Net Cost",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Client Cost",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Classifications",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Cost",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Placement Name",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Production Schedule",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "campaignIdStrategies": null,
+                    "inventoryProviders": {
+                        "enabled": true,
+                        "name": "Adslot",
+                        "provider": "Adslot (Demo)",
+                        "billingMethod":"Supplier",
+                        "termsAndConditions": ""
+                    },
+                    "costItemAdjustments": [
+                        {
+                            "enabled": true,
+                            "name": "Agency Fee",
+                            "metadata": ""
+                        }
+                    ],
+                    "purchaseTypes": [
+                        {
+                            "enabled": true,
+                            "name": "BONUS(C)",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "BONUS(N)",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "CPA",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "CPC",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "CPD",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "CPM",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "CPV",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "FIXED",
+                            "metadata": ""
+                        }
+                    ],
+                    "scheduleBudgetIncludes": null,
+                    "creativeTypes": [
+                        {
+                            "enabled": true,
+                            "name": "Standard Display",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Text",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Advertorial/Email",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Rich Media",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Search Keyword",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Video",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "e-PR",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Mobile",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Social",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Audio",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Native",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Affiliate",
+                            "metadata": ""
+                        }
+                    ],
+                    "otherCostCategories": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Ad Serving",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Production",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Research",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "SEO",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Generic",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Fixed Fee",
+                                "metadata": ""
+                            }
+                        }
+
+                    ],
+                    "mandatoryClassifications": null,
+                    "hideStandardImportTemplateColumns": null,
+                    "mediaScheduleExportOptions": null,
+                    "billingAllocations": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Pro Rata",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Even Monthly",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "First Month",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Last Month",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Pro Rata (Volume)",
+                                "metadata": ""
+                            }
+                        }
+                    ]
+                },
+                "users": [
+                    {
+                        "name": "AFT User AU",
+                        "email": "#{GmAustraliaUserName}",
+                        "sendPassword": true,
+                        "roles": [
+                            "Agency Administrator",
+                            "User Administrator",
+                            "Integration Manager",
+                            "Campaign Access",
+                            "Campaign Administrator",
+                            "Planner",
+                            "Buyer",
+                            "Finance Manager",
+                            "Traffic Manager",
+                            "Campaign Approver",
+                            "Insertion Order Approver",
+                            "Creative Manager",
+                            "API User"
+                        ]
+                    }
+                ],
+                "features": {
+                    "mediaScheduleItemSettings": [
+                        {
+                            "enabled": true,
+                            "name": "Exclude items from trafficking",
+                            "metadata": ""
+                        }
+                    ],
+                    "mediaScheduleExports": [
+                        {
+                            "enabled": true,
+                            "name": "Include publisher & site lists in template",
+                            "metadata": ""
+                        }
+                    ],
+                    "serivceFeeOptions": null,
+                    "trafficking": [
+                        {
+                            "enabled": true,
+                            "name": "Trafficking Placement Level Landing Page",
+                            "metadata": ""
+                        }
+                    ],
+                    "insertionOrders": [
+                        {
+                            "enabled": true,
+                            "name": "Multiple Insertion Orders Per Publisher",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": false,
+                            "name": "IO Approval Workflow",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Use Grid for Insertion Order Landing Page",
+                            "metadata": ""
+                        }
+                    ],
+                    "emailNotifications": null,
+                    "billing": [
+                        {
+                            "enabled": true,
+                            "name": "Prevent Total Actuals from exceeding Total Planned",
+                            "metadata": ""
+                        }
+                    ],
+                    "mediaInsights": null,
+                    "campaignSettings": [],
+                    "mediaScheduleApproval": null,
+                    "ratecardManagement": null,
+                    "forecastingMetrics": null,
+                    "costDefaultSetting": "Cost Default",
+                    "administratorRoles": null
+                },
+                "customLabels": null,
+                "customFields": null,
+                "classifications": [
+                    {
+                        "name": "Classification_AU",
+                        "technicalName": "Classification_AU",
+                        "isMandatory": false,
+                        "isAppliedtoFutureClients": true,
+                        "isAppliedToCurrentClients": true,
+                        "displayStyle": "Group",
+                        "subcategoryLabel": "",
+                        "groups": [
+                            {
+                                "groupName": "GROUP 1",
+                                "items": [
+                                    "Continent",
+                                    "Country"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "agencyAdministratorData": {
+        "featureSettings": {
+            "agencyFees": {
+                "allowAgencyFeeRateCostOverride": true,
+                "allowAgencyFeeBaseOverride": true,
+                "defaultFees": [
+                    {
+                        "client": "All Clients",
+                        "costBreakdownType": "Purchase Cost",
+                        "feePercentage": 5
+                    },
+                    {
+                        "client": "Test Client",
+                        "product": "all products",
+                        "country": "Australia",
+                        "publisher": "Symphony Media Non-Sub Publisher",
+                        "site": "TestFlix",
+                        "costBreakdownType": "Net Cost",
+                        "feePercentage": 4.5
+                    },
+                    {
+                        "client": "Test Client",
+                        "product": "Generic",
+                        "costBreakdownType": "Net Cost incl Prepay",
+                        "feePercentage": 4
+                    }
+                ]
+            },
+            "costAdjustments": [
+                {
+                    "client": "Default",
+                    "country": "Default",
+                    "publisher": "Default",
+                    "adjustment": "Discount 1",
+                    "vendorRate": "1"
+                },
+                {
+                    "client": "Default",
+                    "country": "Default",
+                    "publisher": "Default",
+                    "adjustment": "Vendor Commission",
+                    "vendorRate": "2"
+                }
+            ]
+        },
+        "clients": [
+            {
+                "clientName": "Test Client",
+                "clientLogoName": "ClientLogo.jpg",
+                "countries": [ "Australia" ],
+                "clientContactMarketing": "Symphony QA",
+                "clientContactMarketingEmail": "symphony.qa@adslot.com"
+            }
+        ],
+        "access": {
+            "mediaScheduleExports": [
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard Media Schedule Export",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard Media Schedule Grid Data Export",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "billingExports": [
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard Billing XML Export (2016/03)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard Billing XML Export (2017/03)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard Billing XML Export (2017/09)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard Billing XML Export (2018/08)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard Billing XML Export (2018/09)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard Billing XML Export (2018/11)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard Billing XML Export (2019/03)",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "insertionOrderExports": [
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "IO PDF Export",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "IO PDF Export (Net Cost)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "IO PDF Export (Tax)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "IO PDF Export (Prorata Monthly Allocations)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Insertion Order XML Export (2016/03)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Insertion Order XML Export (2017/03)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Insertion Order XML Export (2017/09)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Insertion Order XML Export (2018/09)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "IO PDF Export (Prorata Monthly Allocations with Site Breakdown)",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "publisherExports": [
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Publisher Details Export",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "dataMapping": [
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "DCM",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Sizmek SAS",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Adform",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "thirdPartyAdServers": [
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "No Ad Serving",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "DCM",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Sizmek SAS",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "FlashTalking",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "AdMonitor",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Facebook",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Google AdWords",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Adform",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "fourthPartyTracking": [
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Other",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "IAS",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Moat",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Nielsen DAR",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "DoubleVerify",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "languages": [
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Australian English",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "traffickingExports": null,
+            "purchaseTypes": null,
+            "billingAllocations": [
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Pro Rata",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Even Monthly",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "First Month",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Last Month",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Pro Rata (Volume)",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "mediaScheduleViews": [
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Locked Items",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Changed Items",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Discounts",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Forecast",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Performance",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Net Cost",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Client Cost",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Classifications",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Cost",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Placement Name",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Production Schedule",
+                        "metadata": ""
+                    }
+                }
+            ]
+        }
+    },
+    "integrationData":{
+        "externalAccounts": [
+            {
+                "name": "Sizmek SAS",
+                "clientOverrideData": [
+                    {
+                        "name": "Test Client",
+                        "clientId": "",
+                        "clientSecret": "",
+                        "externalAccountId": "",
+                        "accessToken": "",
+                        "managerAccountId": "",
+                        "customerId": "",
+                        "authorisationKey": "#{SizmekSasAuthKey}",
+                        "password": "#{SizmekSasPassword}",
+                        "username": "#{SizmekSasUserName}",
+                        "note": ""
+                    }
+                ]
+            },
+            {
+                "name": "Adform",
+                "clientId": "#{AdformClientId}",
+                "clientSecret": "#{AdformClientSecret}",
+                "clientOverrideData": [
+                    {
+                        "name": "Test Client",
+                        "clientId": "#{AdformClientId}",
+                        "clientSecret": "#{AdformClientSecret}",
+                        "externalAccountId": "",
+                        "accessToken": "",
+                        "managerAccountId": "",
+                        "customerId": "",
+                        "authorisationKey": "",
+                        "password": "#{AdformPassword}",
+                        "username": "#{AdformUserName}",
+                        "note": ""
+                    }
+                ]
+            },
+            {
+                "name": "DCM",
+                "username": "#{DcmUserName}",
+                "password": "#{DcmPassword}"
+            }
+        ],
+        "dataMapping": {
+            "externalApplications": [
+                {
+                    "name": "DCM",
+                    "types": [
+                        {
+                            "type": "Agency",
+                            "fields": [
+                                {
+                                    "name": "ForeignId",
+                                    "value": "6891"
+                                },
+                                {
+                                    "name": "Network Override",
+                                    "value": "true"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Client",
+                            "status": "Active",
+                            "clients": [
+                                {
+                                    "name": "Test Client",
+                                    "fields": [
+                                        {
+                                            "name": "ForeignId",
+                                            "value": "3234268"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Test Client",
+                                    "fields": [
+                                        {
+                                            "name": "ForeignId",
+                                            "value": "3234268"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Site",
+                            "publishers": [
+                                {
+                                    "country": "Australia",
+                                    "status": "Active",
+                                    "publisher": "Symphony Media Publisher (S)",
+                                    "sites": [
+                                        {
+                                            "name": "Finance Leader",
+                                            "fields": [
+                                                {
+                                                    "name": "ForeignId",
+                                                    "value": "1186979"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Symphony Media1",
+                                            "fields": [
+                                                {
+                                                    "name": "ForeignId",
+                                                    "value": "1186979"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Sizmek SAS",
+                    "types": [
+                        {
+                            "type": "Agency",
+                            "fields": [
+                                {
+                                    "name": "ForeignId",
+                                    "value": "1073742877"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Client",
+                            "status": "Active",
+                            "clients": [
+                                {
+                                    "name": "Test Client",
+                                    "fields": [
+                                        {
+                                            "name": "ForeignId",
+                                            "value": "1073747517"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Test Client",
+                                    "fields": [
+                                        {
+                                            "name": "ForeignId",
+                                            "value": "1073747517"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Site",
+                            "publishers": [
+                                {
+                                    "country": "Australia",
+                                    "status": "Active",
+                                    "publisher": "Symphony Media Publisher (S)",
+                                    "sites": [
+                                        {
+                                            "name": "Finance Leader",
+                                            "fields": [
+                                                {
+                                                    "name": "ForeignId",
+                                                    "value": "35340"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Symphony Media1",
+                                            "fields": [
+                                                {
+                                                    "name": "ForeignId",
+                                                    "value": "35340"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Adform",
+                    "types": [
+                        {
+                            "type": "Site",
+                            "publishers": [
+                                {
+                                    "country": "Australia",
+                                    "status": "Active",
+                                    "publisher": "Symphony Media Publisher (S)",
+                                    "sites": [
+                                        {
+                                            "name": "Finance Leader",
+                                            "fields": [
+                                                {
+                                                    "name": "ForeignId",
+                                                    "value": "4ab1f13c-7744-e711-9406-00155d168a00"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Symphony Media1",
+                                            "fields": [
+                                                {
+                                                    "name": "ForeignId",
+                                                    "value": "143591dc-7577-e711-9406-00155d168a00"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Client",
+                            "status": "Active",
+                            "clients": [
+                                {
+                                    "name": "Test Client",
+                                    "fields": [
+                                        {
+                                            "name": "ForeignId",
+                                            "value": "2019743"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

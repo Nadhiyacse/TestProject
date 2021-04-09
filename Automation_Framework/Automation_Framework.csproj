@@ -1,0 +1,966 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\..\..\..\NuGetPackages\StyleCop.Adslot.1.0.17327.18\build\StyleCop.Adslot.props" Condition="Exists('..\..\..\..\NuGetPackages\StyleCop.Adslot.1.0.17327.18\build\StyleCop.Adslot.props')" />
+  <Import Project="..\..\..\..\NuGetPackages\NUnit.3.10.1\build\NUnit.props" Condition="Exists('..\..\..\..\NuGetPackages\NUnit.3.10.1\build\NUnit.props')" />
+  <Import Project="..\..\..\..\NuGetPackages\NUnit3TestAdapter.3.10.0\build\net35\NUnit3TestAdapter.props" Condition="Exists('..\..\..\..\NuGetPackages\NUnit3TestAdapter.3.10.0\build\net35\NUnit3TestAdapter.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A2447D90-8EFD-4509-A84A-B00CE216AAFC}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Automation_Framework</RootNamespace>
+    <AssemblyName>Automation_Framework</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">15.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectConfigFileName>App.config</ProjectConfigFileName>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'App|AnyCPU'">
+    <OutputPath>bin\App\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'App|x86'">
+    <OutputPath>bin\x86\App\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bowser|AnyCPU'">
+    <OutputPath>bin\Bowser\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Bowser|x86'">
+    <OutputPath>bin\x86\Bowser\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ExtentReports, Version=3.1.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\ExtentReports.3.1.3\lib\ExtentReports.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.4.9.5, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\HtmlAgilityPack.1.4.9.5\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="ImpromptuInterface, Version=6.2.2.0, Culture=neutral, PublicKeyToken=0b1781c923b2975b, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\ImpromptuInterface.6.2.2\lib\net40\ImpromptuInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MongoDB.Bson, Version=2.4.0.70, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\MongoDB.Bson.2.4.0\lib\net45\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=2.4.0.70, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\MongoDB.Driver.2.4.0\lib\net45\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core, Version=2.4.0.70, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\MongoDB.Driver.Core.2.4.0\lib\net45\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=3.10.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\NUnit.3.10.1\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="RazorEngine, Version=3.9.0.0, Culture=neutral, PublicKeyToken=9ee697374c7e744a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\RazorEngine.3.9.0\lib\net45\RazorEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp, Version=106.0.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\RestSharp.106.10.1\lib\net452\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="SeleniumExtras.WaitHelpers, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\DotNetSeleniumExtras.WaitHelpers.3.11.0\lib\net45\SeleniumExtras.WaitHelpers.dll</HintPath>
+    </Reference>
+    <Reference Include="SpecFlow.Assist.Dynamic, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\SpecFlow.Assist.Dynamic.1.3.1\lib\45\SpecFlow.Assist.Dynamic.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security" />
+    <Reference Include="System.ValueTuple, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="TechTalk.SpecFlow, Version=2.3.2.0, Culture=neutral, PublicKeyToken=0778194805d6db41, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\SpecFlow.2.3.2\lib\net45\TechTalk.SpecFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\NuGetPackages\Selenium.Support.3.141.0\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="1. Features\InfrastructureTests\Generic_Setup.feature.cs">
+      <DependentUpon>Generic_Setup.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_Austria_Setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Austria_Setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_Belgium_Setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Belgium_Setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_China_Setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_China_Setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_HongKong_setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_HongKong_setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_Indonesia_Setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Indonesia_Setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_India_Setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_India_Setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_NewZealand_Setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_NewZealand_Setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\OMG_Netherlands_Setup.feature.cs">
+      <DependentUpon>OMG_Netherlands_Setup.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_Taiwan_Setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Taiwan_Setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_Malaysia_Setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Malaysia_Setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_Australia_Setup.feature.cs">
+      <DependentUpon>GM_Australia_Setup.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_Philippines_Setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Philippines_Setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_RSA_Setup.feature.cs">
+      <DependentUpon>GM_RSA_Setup.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_Turkey_Setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Turkey_Setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\GM_Vietnam_Setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Vietnam_Setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\InfrastructureTests\Smoke_Test_Setup.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Smoke_Test_Setup.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\PerformanceTests\Performance.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Performance.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_Austria_Workflow.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Austria_Workflow.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_China_Workflow.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_China_Workflow.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_India_Workflow.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_India_Workflow.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_Malaysia_Workflow.feature.cs">
+      <DependentUpon>GM_Malaysia_Workflow.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_Indonesia_Workflow.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Indonesia_Workflow.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_NewZealand_Workflow.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_NewZealand_Workflow.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_RSA_Workflow.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_RSA_Workflow.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\OMG_Netherlands_Workflow.feature.cs">
+      <DependentUpon>OMG_Netherlands_Workflow.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_Philippines_Workflow.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Philippines_Workflow.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_Belgium_Workflow.feature.cs">
+      <DependentUpon>GM_Belgium_Workflow.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_Taiwan_Workflow.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Taiwan_Workflow.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_Vietnam_Workflow.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Vietnam_Workflow.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_Hongkong_Workflow.feature.cs">
+      <DependentUpon>GM_Hongkong_Workflow.feature</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_Turkey_Workflow.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Turkey_Workflow.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\GM_Australia_Workflow.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GM_Australia_Workflow.feature</DependentUpon>
+    </Compile>
+    <Compile Include="1. Features\WorkflowTests\Smoke_Test_Workflow.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Smoke_Test_Workflow.feature</DependentUpon>
+    </Compile>
+    <Compile Include="2. Steps\Adslot\Campaign\ManageCampaignsStep.cs" />
+    <Compile Include="2. Steps\Adslot\Campaign\MediaScheduleStep.cs" />
+    <Compile Include="2. Steps\Adslot\Common\AdslotNavigationStep.cs" />
+    <Compile Include="2. Steps\Adslot\Campaign\InboxStep.cs" />
+    <Compile Include="2. Steps\Common\PublicApiStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Administrator\AccessStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Administrator\CampaignStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Administrator\ClientStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Administrator\DetailsStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Administrator\IOAdminStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Administrator\PublisherStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Campaigns\CampaignsStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Integration\ExtAccountsStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Integration\DataMappingStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Overview\AgencyOverviewStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Overview\Campaign\BillingStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Overview\Campaign\BriefsAndProposalsStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Overview\Campaign\DetailsStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Overview\Campaign\MarketplaceStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Overview\Campaign\InsertionOrderStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Overview\Campaign\MediaScheduleStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Overview\Campaign\TrafficStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Symphony Admin\PublisherStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Symphony Admin\AgencyStep.cs" />
+    <Compile Include="2. Steps\Common\LogoutStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Symphony Admin\GlobalStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Symphony Admin\VendorStep.cs" />
+    <Compile Include="2. Steps\Symphony\Agency\Symphony Admin\FeatureTogglesStep.cs" />
+    <Compile Include="2. Steps\Symphony\Common\NavigationStep.cs" />
+    <Compile Include="2. Steps\Symphony\Common\UserAccountStep.cs" />
+    <Compile Include="2. Steps\Symphony\Public\PublicExportStep.cs" />
+    <Compile Include="2. Steps\Symphony\Publisher\Overview\Campaign\InsertionOrderStep.cs" />
+    <Compile Include="2. Steps\Symphony\Publisher\Overview\PublisherOverviewStep.cs" />
+    <Compile Include="3. Pages\Adslot\Campaigns\InboxPage.cs" />
+    <Compile Include="3. Pages\Adslot\Campaigns\Media Schedule\MediaSchedulePage.cs" />
+    <Compile Include="3. Pages\Adslot\Campaigns\ManageCampaignsPage.cs" />
+    <Compile Include="3. Pages\Adslot\Campaigns\Media Schedule\MediaScheduleReviewSignoffPage.cs" />
+    <Compile Include="3. Pages\Adslot\Common\AdslotLoginPage.cs" />
+    <Compile Include="3. Pages\Adslot\Common\AdslotNavigationPage.cs" />
+    <Compile Include="2. Steps\Symphony\Publisher\Overview\Campaign\BriefsAndProposalsStep.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Administrator\Access\AccessPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Administrator\Campaign\AddEditParentCampaignFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Administrator\Campaign\CampaignsPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Administrator\Client\ClientCustomFields.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Administrator\Client\ClientPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Administrator\Client\CreateClientPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Administrator\Details\FeatureSettingsPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Administrator\Details\Popups\ImportClassificationFiltersPopup.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Administrator\IOAdmin\IOSettingsPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Administrator\Publishers\Popups\ImportRatecardFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Administrator\Publishers\RatecardPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Campaigns\CampaignsGridPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Integration\DataMapping\VendorMappingFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Integration\Ext Accounts\Popups\EditClientExtAppCredentialsFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Integration\Ext Accounts\ExtAccountsPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Integration\DataMapping\ClientMappingFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Integration\DataMapping\ManageDataMappingPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Integration\DataMapping\SiteMappingFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Integration\Ext Accounts\Popups\GoogleSignInPopUp.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\Billing\Popups\ExportBillingFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\Details\DetailsPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\Details\Popups\ExportCampaignFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\GridInsertionOrderLandingPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\ManageInsertionOrderPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\Popups\AddCostItemsFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\Popups\AddNonMediaCostItemsFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\Popups\RejectInsertionOrderApprovalFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\Popups\RejectInsertionOrderFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\CreateSponsorshipPackageModal.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\ManageColumnsModal.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\MediaScheduleGridPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\OtherCostsPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\AddEditNonMediaCostModal.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\Popups\AddOtherCostFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\Popups\ConfirmCancellationFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\Popups\HistoryLineItemStatusFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\Popups\RestoreSponsorshipFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\SendMediaScheduleItemsForApprovalModal.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\VersionHistoryModal.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Agencies\AgencyClassificationsPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Agencies\AgencyCustomFieldPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Agencies\AgencyEditPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Agencies\AgencyCreatePage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Agencies\Popups\AddEditCustomLabelFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Agencies\Popups\CreateUpdateAgencyUserFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Agencies\AgencyCustomLabelPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Agencies\Popups\ManageActionsRequiringReapprovalFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Feature Toggles\FeatureTogglesPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Global\GlobalCustomFieldPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Global\Popups\AddCustomFieldModal.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\Popups\CreateUpdateAgencyUserFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\Popups\SelectAgencyAccessFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\PublisherFormatPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\PublisherLocationPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\PublisherMappingPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\PublisherUserPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\PublisherAccessPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\PublisherCreatePage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\PublisherEditPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\PublisherListPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\SiteCreatePage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\PublisherSitePage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Publishers\SiteEditPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Vendors\Popups\VendorAddEditFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Vendors\VendorListPage.cs" />
+    <Compile Include="3. Pages\Symphony\Common\Enums\CustomFieldApplyTo.cs" />
+    <Compile Include="3. Pages\Symphony\Common\Enums\EnvironmentScope.cs" />
+    <Compile Include="3. Pages\Symphony\Common\Enums\FeatureToggle.cs" />
+    <Compile Include="3. Pages\Symphony\Common\Enums\PurchaseType.cs" />
+    <Compile Include="3. Pages\Symphony\Common\ExportFramePage.cs" />
+    <Compile Include="3. Pages\Symphony\Common\UserAccountFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Public\AGPublicExportPage.cs" />
+    <Compile Include="3. Pages\Symphony\Publisher\Overview\Campaign\InsertionOrder\ManageMultipleInsertionOrderPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\AddEditModal.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\Popups\ExportMediaScheduleFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\ImportMediaScheduleModal.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Agencies\AgencyAccessPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Agencies\AgencyFeaturesPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Agencies\AgencyListPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Symphony Admin\Agencies\AgencyUserPage.cs" />
+    <Compile Include="3. Pages\Symphony\Publisher\Overview\Campaign\InsertionOrder\Popups\AcceptInsertionOrderFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Publisher\Overview\Campaign\InsertionOrder\Popups\RejectInsertionOrderFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Publisher\Overview\Campaign\InsertionOrder\ViewInsertionOrderPage.cs" />
+    <Compile Include="3. Pages\Symphony\Publisher\Overview\PublisherOverviewPage.cs" />
+    <Compile Include="DataModels\CommonData\AccessControlledItem.cs" />
+    <Compile Include="DataModels\CommonData\Checkbox.cs" />
+    <Compile Include="DataModels\CommonData\CustomFieldData.cs" />
+    <Compile Include="DataModels\CommonData\FlightDates.cs" />
+    <Compile Include="DataModels\CommonData\UserData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Administrator\AccessData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Administrator\AgencyAdministratorData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Administrator\Campaigns\CampaignsData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Administrator\Campaigns\ParentCampaignsData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Administrator\ClientsData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Administrator\Details\AgencyFeesData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Administrator\Details\DefaultFeesData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Administrator\Details\CostAdjustmentsData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Administrator\Details\FeatureSettingsData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Administrator\IOAdminData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Administrator\Publishers\PublishersData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Administrator\Publishers\RatecardData.cs" />
+    <Compile Include="DataModels\InfrastructureData\GenericInfrastructureData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Integration\DataMapping\Field.cs" />
+    <Compile Include="DataModels\InfrastructureData\Integration\DataMapping\Publisher.cs" />
+    <Compile Include="DataModels\InfrastructureData\Integration\DataMapping\Type.cs" />
+    <Compile Include="DataModels\InfrastructureData\Integration\DataMapping\SiteData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Integration\DataMapping\ExternalApplicationData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Integration\DataMapping\ClientData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Integration\DataMapping\MappingData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Integration\DataMapping\VendorData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Integration\IntegrationData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\Agency Features\ActionsNotRequiringReapproval.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\Agency Features\EmailNotificationsData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\Agency Features\ForecastingMetricsSettingsData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\Agency Features\MediaScheduleApprovalData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\AgencyAccessData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\AgencyData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\AgencyFeaturesData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\ClassificationData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\Classifications\GroupItem.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\Custom Fields\MultiSelectOptions.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\Custom Fields\Resolution.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\CustomFieldData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\CustomLabelData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\Agency Access\InventoryProviderData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\Agency Access\MediaScheduleExportOptionsData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Agencies\Agency Access\ScheduleBudgetIncludesData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\FeatureToggles\FeatureTogglesData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Global\GlobalCustomFieldData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Integration\ClientOverrideData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Integration\ExternalAccountData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Publishers\RestrictAgencyAccessData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Publishers\FormatData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Publishers\LocationData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Publishers\LocationFormatMappingData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Publishers\PublisherAccessData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Publishers\PublisherData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Publishers\SiteData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\SymphonyAdminGenericData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\SymphonyAdminAgencyData.cs" />
+    <Compile Include="DataModels\InfrastructureData\Symphony Admin\Vendors\VendorData.cs" />
+    <Compile Include="DataModels\ITestData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\Billing\BillingData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\Billing\CustomBillingData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\Billing\CustomBillingItem.cs" />
+    <Compile Include="DataModels\WorkflowTestData\Billing\CustomBillingMonthData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\Campaign\CampaignApprovalData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\Campaign\CampaignExchangeRatesData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\Common\EditData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\Common\TrafficTabData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\MediaScheduleExport\MediaScheduleExportData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\InsertionOrder\InsertionOrderData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\InsertionOrder\InsertionOrderIssueData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\Common\ClassificationTabData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\Common\CostsTabData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\Common\FlightingTabData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\Common\ForecastTabData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\Common\DetailTabData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\Common\MoreTabData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\MediaScheduleData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\NonMediaCosts\EditNonMediaCostData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\NonMediaCosts\NonMediaCostData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\PerformancePackage\PerformancePackage.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\Common\PlacementsTabData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\SinglePlacement\SinglePlacement.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\SponsorshipPackage\SponsorshipPackage.cs" />
+    <Compile Include="DataModels\WorkflowTestData\MediaScheduleItem\SummaryTableData\MediaScheduleSummaryTableData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\Trafficking\TraffickingData.cs" />
+    <Compile Include="Helpers\ExcelHelper.cs" />
+    <Compile Include="Helpers\FeatureDisplayNameAttribute.cs" />
+    <Compile Include="Helpers\FeatureToggleExtensionMethods.cs" />
+    <Compile Include="Helpers\FileHelper.cs" />
+    <Compile Include="Helpers\PurchaseTypeExtensionMethods.cs" />
+    <Compile Include="Hooks\ContextStrings.cs" />
+    <Compile Include="Hooks\Enums\BrowserType.cs" />
+    <Compile Include="3. Pages\Symphony\Common\Enums\CustomFieldType.cs" />
+    <Compile Include="Hooks\TestFixture.cs" />
+    <Compile Include="DataModels\WorkflowTestData\Campaign\CampaignBudgetData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\Campaign\CampaignData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\Campaign\CampaignDetailsData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\Campaign\CampaignStrategyData.cs" />
+    <Compile Include="DataModels\WorkflowTestData\WorkflowTestData.cs" />
+    <Compile Include="DataModels\CommonData\LoginUserData.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\Popups\AcceptInsertionOrderFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\BriefsAndProposals\AgencyProposalPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\Popups\ApproveMediaScheduleFrame.cs" />
+    <Compile Include="3. Pages\BasePage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\BriefsAndProposals\AgencyBriefPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\BriefsAndProposals\AgencyBriefsAndProposalsPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\Popups\BeginSignoffFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\Billing\BillingPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\Popups\ConfirmMediaSchedulePopUp.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\Popups\ExportInsertionOrderFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Common\NavigationPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\ManageMultipleInsertionOrderPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\Popups\IssueInsertionOrderFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Common\LoginPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\AgencyOverviewPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\AddEditInsertionOrderPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\ManagePerformancePackageModal.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\ManageSponsorshipPackageModal.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\Marketplace\MarketPlacePage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\MediaSchedulePage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\AddEditCampaignModal.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\MediaSchedule\ManageSinglePlacementModal.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\BriefsAndProposals\Popups\ProposalRatingPopUpPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\Billing\CustomBillingPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\BriefsAndProposals\SendBriefPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\Popups\SendForApprovalFrame.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\InsertionOrder\ViewInsertionOrderPage.cs" />
+    <Compile Include="3. Pages\Symphony\Agency\Overview\Campaign\Traffic\TrafficPage.cs" />
+    <Compile Include="DataModels\InfrastructureData\AgencyInfrastructureData.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="2. Steps\BaseStep.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="2. Steps\Common\LoginStep.cs" />
+    <Compile Include="PublicApi\Base\ApiBaseService.cs" />
+    <Compile Include="PublicApi\Base\Attributes\ServiceUrlAttribute.cs" />
+    <Compile Include="PublicApi\Base\AuthentificationBaseService.cs" />
+    <Compile Include="PublicApi\Base\BaseClient\ApiClient.cs" />
+    <Compile Include="PublicApi\Base\BaseClient\RestClientFactory.cs" />
+    <Compile Include="PublicApi\Base\BaseService.cs" />
+    <Compile Include="PublicApi\Base\Exceptions\PublicApiHttpException.cs" />
+    <Compile Include="PublicApi\Base\Executor\ApiExecutor.cs" />
+    <Compile Include="PublicApi\Base\RequestFactory.cs" />
+    <Compile Include="PublicApi\Base\Serialization\JsonSerializer.cs" />
+    <Compile Include="PublicApi\Models\RequestModels\AuthenticationRequestModel.cs" />
+    <Compile Include="PublicApi\Models\RequestModels\AdvertiserRequestModel.cs" />
+    <Compile Include="PublicApi\Models\RequestModels\AgencyContactRequestModel.cs" />
+    <Compile Include="PublicApi\Models\ResponseModels\AuthenticationResponseModel.cs" />
+    <Compile Include="PublicApi\Models\ResponseModels\CampaignResponseModel.cs" />
+    <Compile Include="PublicApi\Models\RequestModels\BrandRequestModel.cs" />
+    <Compile Include="PublicApi\Models\RequestModels\CampaignRequestModel.cs" />
+    <Compile Include="PublicApi\Scenarios\AuthenticationScenario.cs" />
+    <Compile Include="PublicApi\Scenarios\CampaignScenario.cs" />
+    <Compile Include="PublicApi\Services\AuthenticationService.cs" />
+    <Compile Include="PublicApi\Services\CampaignService.cs" />
+    <Compile Include="Translations\Strings.de.Designer.cs">
+      <DependentUpon>Strings.de.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Translations\Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Strings.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="1. Features\InfrastructureTests\Generic_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Generic_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_HongKong_setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_HongKong_setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_Belgium_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Belgium_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_Indonesia_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Indonesia_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_India_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_India_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\OMG_Netherlands_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>OMG_Netherlands_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_Taiwan_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Taiwan_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_Malaysia_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Malaysia_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_NewZealand_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_NewZealand_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_Australia_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Australia_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_Austria_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Austria_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_China_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_China_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_Philippines_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Philippines_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_RSA_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_RSA_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_Turkey_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Turkey_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\GM_Vietnam_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Vietnam_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\InfrastructureTests\Smoke_Test_Setup.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Smoke_Test_Setup.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\PerformanceTests\Performance.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Performance.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_Austria_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Austria_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_China_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_China_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_India_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_India_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_Malaysia_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Malaysia_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_Indonesia_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Indonesia_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\OMG_Netherlands_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>OMG_Netherlands_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_Philippines_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Philippines_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_RSA_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_RSA_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_Belgium_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Belgium_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_Taiwan_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Taiwan_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_Vietnam_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Vietnam_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_Hongkong_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Hongkong_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_Turkey_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Turkey_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_NewZealand_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_NewZealand_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="1. Features\WorkflowTests\GM_Australia_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>GM_Australia_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <Content Include="App.config">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Automation_Framework.nuspec">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\Documents\GM_Indonesia_Workflow.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\Documents\terms-and-conditions.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Austria_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Austria_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_China_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Indonesia_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Belgium_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\Images\ClientStamp.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\Images\Esignature.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Australia_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Taiwan_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_China_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Malaysia_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Malaysia_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_India_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Indonesia_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\Generic_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Philippines_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Turkey_setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Turkey_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Vietnam_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\ImportTemplateData\GM_Belgium_Workflow.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\ImportTemplateData\GM_China_Workflow.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\ImportTemplateData\GM_Taiwan_Workflow.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\ImportTemplateData\GM_Australia_Workflow.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_India_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Australia_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_HongKong_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Hongkong_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Belgium_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_RSA_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_RSA_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_Philippines_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\OMG_Netherlands_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\OMG_Netherlands_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="1. Features\WorkflowTests\Smoke_Test_Workflow.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>Smoke_Test_Workflow.feature.cs</LastGenOutput>
+    </None>
+    <None Include="DataFiles\GM_Taiwan_setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\GM_Vietnam_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\ImportClassificationFilterData\GM_Philippines_Setup.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\ImportRatecardData\rsa_-_symphony_media_publisher_ratecard.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="DataFiles\ImportTemplateData\Smoke_Test_Workflow.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="DataFiles\ImportTemplateData\GM_Austria_Workflow.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\ImportTemplateData\GM_Hongkong_Workflow.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\ImportTemplateData\GM_NewZealand_Workflow.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\ImportTemplateData\GM_RSA_Workflow.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\ImportTemplateData\GM_Turkey_Workflow.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\ImportTemplateData\GM_Vietnam_Workflow.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="DataFiles\ImportTemplateData\Performance.xlsx" />
+    <None Include="DataFiles\Performance.json" />
+    <Content Include="DataFiles\GM_NewZealand_Setup.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DataFiles\GM_NewZealand_Workflow.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="DataFiles\Smoke_Test_Setup.json" />
+    <None Include="DataFiles\Smoke_Test_Workflow.json" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Xray\Import-TestResultsToXray.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Xray\TestExecutionInfo.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Translations\Strings.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.de.Designer.cs</LastGenOutput>
+      <DependentUpon>Strings.resx</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translations\Strings.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Strings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="2. Steps\Symphony\Publisher\Administrator\" />
+    <Folder Include="3. Pages\Symphony\Publisher\Administrator\" />
+    <Folder Include="DataModels\WorkflowTestData\AdslotPublisher\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DataFiles\Images\ClientLogo.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\..\..\..\NuGetPackages\NUnit3TestAdapter.3.10.0\build\net35\NUnit3TestAdapter.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\NuGetPackages\NUnit3TestAdapter.3.10.0\build\net35\NUnit3TestAdapter.props'))" />
+    <Error Condition="!Exists('..\..\..\..\NuGetPackages\SpecFlow.2.3.2\build\SpecFlow.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\NuGetPackages\SpecFlow.2.3.2\build\SpecFlow.targets'))" />
+    <Error Condition="!Exists('..\..\..\..\NuGetPackages\NUnit.3.10.1\build\NUnit.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\NuGetPackages\NUnit.3.10.1\build\NUnit.props'))" />
+    <Error Condition="!Exists('..\..\..\..\NuGetPackages\StyleCop.MSBuild.4.7.54.0\build\StyleCop.MSBuild.Targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\NuGetPackages\StyleCop.MSBuild.4.7.54.0\build\StyleCop.MSBuild.Targets'))" />
+    <Error Condition="!Exists('..\..\..\..\NuGetPackages\StyleCop.Adslot.1.0.17327.18\build\StyleCop.Adslot.props')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\NuGetPackages\StyleCop.Adslot.1.0.17327.18\build\StyleCop.Adslot.props'))" />
+    <Error Condition="!Exists('..\..\..\..\NuGetPackages\Selenium.WebDriver.ChromeDriver.89.0.4389.2300\build\Selenium.WebDriver.ChromeDriver.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\..\..\NuGetPackages\Selenium.WebDriver.ChromeDriver.89.0.4389.2300\build\Selenium.WebDriver.ChromeDriver.targets'))" />
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <Import Project="..\..\..\..\NuGetPackages\SpecFlow.2.3.2\build\SpecFlow.targets" Condition="Exists('..\..\..\..\NuGetPackages\SpecFlow.2.3.2\build\SpecFlow.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="..\..\..\..\NuGetPackages\StyleCop.MSBuild.4.7.54.0\build\StyleCop.MSBuild.Targets" Condition="Exists('..\..\..\..\NuGetPackages\StyleCop.MSBuild.4.7.54.0\build\StyleCop.MSBuild.Targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties DataFiles_4GM_3Vietnam_3Setup_1json__JSONSchema="https://batect.dev/configSchema.json" />
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\..\..\..\NuGetPackages\Selenium.WebDriver.ChromeDriver.89.0.4389.2300\build\Selenium.WebDriver.ChromeDriver.targets" Condition="Exists('..\..\..\..\NuGetPackages\Selenium.WebDriver.ChromeDriver.89.0.4389.2300\build\Selenium.WebDriver.ChromeDriver.targets')" />
+</Project>

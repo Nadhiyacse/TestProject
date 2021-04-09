@@ -1,0 +1,575 @@
+﻿{
+    "agencyLoginUserData": {
+        "userName": "#{SmokeTestAgencyUserName}",
+        "password": "#{SmokeTestAgencyPassword}"
+    },
+    "symphonyAdminData": {
+        "agencies": [
+            {
+                "masterAgency": "",
+                "name": "Auto Test Agency",
+                "address": "123 Sesame St",
+                "country": "#{Country}",
+                "status": "Active",
+                "isTestAgency": true,
+                "taxNumber": "",
+                "logoFilePath": "",
+                "insertionOrderEnabled": true,
+                "billingSource": "",
+                "language": "British English",
+                "timeZone": "(UTC+10:00) Canberra, Melbourne, Sydney",
+                "enableAgencyOverride": true,
+                "contactName": "Auto Test",
+                "contactEmail": "autotest@adslot.com",
+                "contactTelephone": "",
+                "uniquePlannerBuyer": false,
+                "authenticationMethod": "Symphony Password",
+                "access": {
+                    "costModel": "#{CostModel}",
+                    "placementNamingConvention": "DefaultLineItemName",
+                    "packageNamingConvention": "Default",
+                    "campaignNamingConvention": "Default",
+                    "mediaScheduleExports": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Media Schedule Grid Data Export",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Media Schedule Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "insertionOrderExports": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "IO PDF Export",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Insertion Order XML Export (2018/09)",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "costModelImports": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "MultiFlight Grid Import Template Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "billingExports": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard Billing XML Export (2018/11)",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Minder Packaged Export V3",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "publisherDetailExports": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Publisher Details Export",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "dataMapping": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Sizmek SAS",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "thirdPartyAdServers": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "No Ad Serving",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Sizmek SAS",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "fourthPartyAdServers": [
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Other",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "languages": null,
+                    "externalCredentials": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Sizmek SAS",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "mediaScheduleViews": [
+                        {
+                            "isDefault": false,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Standard",
+                                "metadata": ""
+                            }
+                        },
+                        {
+                            "isDefault": true,
+                            "accessItem": {
+                                "enabled": true,
+                                "name": "Placement Name",
+                                "metadata": ""
+                            }
+                        }
+                    ],
+                    "inventoryProviders": {
+                        "enabled": true,
+                        "name": "Adslot",
+                        "provider": "Adslot (Demo)",
+                        "billingMethod": "Supplier",
+                        "termsAndConditions": ""
+                    },
+                    "costItemAdjustments": [
+                        {
+                            "enabled": true,
+                            "name": "Agency Fee",
+                            "metadata": ""
+                        }
+                    ],
+                    "purchaseTypes": null,
+                    "scheduleBudgetIncludes": null,
+                    "creativeTypes": [
+                        {
+                            "enabled": true,
+                            "name": "Standard Display",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Text",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Advertorial/Email",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Rich Media",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Search Keyword",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Video",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "e-PR",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Mobile",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Social",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Audio",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Native",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Affiliate",
+                            "metadata": ""
+                        }
+                    ],
+                    "otherCostCategories": null,
+                    "mandatoryClassifications": null,
+                    "hideStandardImportTemplateColumns": null,
+                    "mediaScheduleExportOptions": null,
+                    "billingAllocations": null
+                },
+                "users": [
+                    {
+                        "name": "Auto Test User",
+                        "email": "#{SmokeTestAgencyUserName}",
+                        "sendPassword": true,
+                        "roles": [
+                            "Agency Administrator",
+                            "User Administrator",
+                            "Integration Manager",
+                            "Campaign Access",
+                            "Campaign Administrator",
+                            "Planner",
+                            "Buyer",
+                            "Finance Manager",
+                            "Traffic Manager",
+                            "Campaign Approver",
+                            "Insertion Order Approver",
+                            "Creative Manager",
+                            "API User"
+                        ]
+                    }
+                ],
+                "features": {
+                    "mediaScheduleItemSettings": [
+                        {
+                            "enabled": true,
+                            "name": "Exclude items from trafficking",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "NMC: Enable Action Bar and Campaign Non-Media Cost",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": false,
+                            "name": "Hide classifications tab for non-media costs",
+                            "metadata": ""
+                        }
+                    ],
+                    "mediaScheduleExports": [
+                        {
+                            "enabled": true,
+                            "name": "Include publisher & site lists in template",
+                            "metadata": ""
+                        }
+                    ],
+                    "serivceFeeOptions": null,
+                    "trafficking": [
+                        {
+                            "enabled": true,
+                            "name": "Trafficking Placement Level Landing Page",
+                            "metadata": ""
+                        }
+                    ],
+                    "insertionOrders": [
+                        {
+                            "enabled": true,
+                            "name": "Multiple Insertion Orders Per Publisher",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": false,
+                            "name": "IO Approval Workflow",
+                            "metadata": ""
+                        },
+                        {
+                            "enabled": true,
+                            "name": "Use Grid for Insertion Order Landing Page",
+                            "metadata": ""
+                        }
+                    ],
+                    "emailNotifications": null,
+                    "billing": [
+                        {
+                            "enabled": true,
+                            "name": "Prevent Total Actuals from exceeding Total Planned",
+                            "metadata": ""
+                        }
+                    ],
+                    "mediaInsights": null,
+                    "campaignSettings": [],
+                    "mediaScheduleApproval": null,
+                    "ratecardManagement": null,
+                    "forecastingMetrics": null,
+                    "costDefaultSetting": "Cost Default",
+                    "administratorRoles": null
+                },
+                "customLabels": null,
+                "customFields": null,
+                "classifications": null
+            }
+        ]
+    },
+    "agencyAdministratorData": {
+        "clients": [
+            {
+                "clientName": "Auto Test Client",
+                "clientLogoName": "ClientLogo.jpg",
+                "countries": [
+                    "#{Country}"
+                ],
+                "clientContactMarketing": "Symphony QA",
+                "clientContactMarketingEmail": "symphony.qa@adslot.com"
+            }
+        ],
+        "access": {
+            "mediaScheduleExports": [
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard Media Schedule Grid Data Export",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard Media Schedule Export",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "billingExports": [
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard Billing XML Export (2018/11)",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Minder Packaged Export V3",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "insertionOrderExports": [
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "IO PDF Export",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Insertion Order XML Export (2018/09)",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "publisherExports": [
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Publisher Details Export",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "dataMapping": [
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Sizmek SAS",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "thirdPartyAdServers": [
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "No Ad Serving",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Sizmek SAS",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "fourthPartyTracking": [
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Other",
+                        "metadata": ""
+                    }
+                }
+            ],
+            "languages": null,
+            "traffickingExports": null,
+            "purchaseTypes": null,
+            "billingAllocations": null,
+            "mediaScheduleViews": [
+                {
+                    "isDefault": false,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Standard",
+                        "metadata": ""
+                    }
+                },
+                {
+                    "isDefault": true,
+                    "accessItem": {
+                        "enabled": true,
+                        "name": "Placement Name",
+                        "metadata": ""
+                    }
+                }
+            ]
+        }
+    },
+    "integrationData": {
+        "externalAccounts": [
+            {
+                "name": "Sizmek SAS",
+                "clientOverrideData": [
+                    {
+                        "name": "Auto Test Client",
+                        "clientId": "",
+                        "clientSecret": "",
+                        "externalAccountId": "",
+                        "accessToken": "",
+                        "managerAccountId": "",
+                        "customerId": "",
+                        "authorisationKey": "#{SizmekSasAuthKey}",
+                        "password": "#{SizmekSasPassword}",
+                        "username": "#{SizmekSasUserName}",
+                        "note": ""
+                    }
+                ]
+            }
+        ],
+        "dataMapping": {
+            "externalApplications": [
+                {
+                    "name": "Sizmek SAS",
+                    "types": [
+                        {
+                            "type": "Agency",
+                            "fields": [
+                                {
+                                    "name": "ForeignId",
+                                    "value": "1073742877"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Client",
+                            "status": "Active",
+                            "clients": [
+                                {
+                                    "name": "Auto Test Client",
+                                    "fields": [
+                                        {
+                                            "name": "ForeignId",
+                                            "value": "1073747517"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Site",
+                            "publishers": [
+                                {
+                                    "country": "Australia",
+                                    "status": "Active",
+                                    "publisher": "Auto Test Publisher",
+                                    "sites": [
+                                        {
+                                            "name": "ASite1",
+                                            "fields": [
+                                                {
+                                                    "name": "ForeignId",
+                                                    "value": "35340"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "ASite2",
+                                            "fields": [
+                                                {
+                                                    "name": "ForeignId",
+                                                    "value": "35340"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

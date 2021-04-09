@@ -1,0 +1,1173 @@
+﻿{
+    "agencyLoginUserData": {
+        "userName": "#{GmAustriaUserName}",
+        "password": "#{GmAustriaPassword}"
+    },
+    "publisherLoginUserData": {
+        "userName": "#{AdslotPubUserName}",
+        "password": "#{AdslotPubPassword}"
+    },
+    "campaignData": {
+        "detailsData": {
+            "campaignName": "AG Workflow Campaign",
+            "internalId": "",
+            "autoGenerateName": false,
+            "addToWatchlist": true,
+            "description": "Campaign for testing the AG workflow",
+            "startDate": " ",
+            "endDate": " ",
+            "timingComment": "Test timing comment",
+            "agencyContact": "AFT User AT",
+            "creativeContact": "",
+            "clientName": "Test Client",
+            "product": "Generic",
+            "thirdPartyAdserver": "Sizmek SAS",
+            "exportMediaCostInformationToAdserver": true,
+            "fourthPartyAdserver": "Other",
+            "traffickingPlacementLevelLandingPage": true,
+            "isCostOfTrackingRate": false,
+            "landingPage": "http://www.adslot.com",
+            "customFields": [
+
+            ]
+        },
+        "exchangeRatesData": {
+        },
+        "budgetData": {
+            "budgetData": [
+            ]
+        },
+        "strategyData": {
+            "objectiveSummary": "Objective summary",
+            "objectiveOne": "Objective one",
+            "objectiveTwo": "Objective two",
+            "objectiveThree": "Objective three",
+            "isGenderMale": false,
+            "age": [
+                "18-24"
+            ],
+            "targetDemographicComment": "\"Test target demographic comment\"",
+            "otherMedia": [
+                "Press"
+            ]
+        }
+    },
+    "singlePlacements": [
+        {
+            "isAutomatedGuaranteedItem": true,
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "detailTabData": {
+                "name": "JE Sight CPM EU",
+                "autoGenerateName": false,
+                "publisher": "Adslot Inventory Vendor (S)",
+                "site": "JE Sight",
+                "location": "JE Sight CPM EU",
+                "format": "Leaderboard (728x90)",
+                "creativeType": "Display",
+                "devices": [
+                    "Desktop"
+                ],
+                "landingPage": "http://jesight.com",
+                "targetingType": "Australia State (Geographic)",
+                "targetingOptions": [
+                    "Australian Capital Territory"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 5,
+                "baseRate": 4,
+                "baseCost": 6,
+                "shareOfVoice": 80
+            },
+            "costsTabData": {
+                "vendorAdjustments": [
+                    {
+                        "adjustmentName": "Digital Tax",
+                        "cost": 12.55
+                    },
+                    {
+                        "adjustmentName": "Prepay Discount",
+                        "cost": 5.77,
+                        "type": "Net Cost incl Digital Tax"
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": true,
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "detailTabData": {
+                "name": "CPMv Single",
+                "autoGenerateName": false,
+                "publisher": "Adslot Inventory Vendor (S)",
+                "site": "Bo's homewares",
+                "location": "CPMv Single",
+                "format": "Leaderboard (728x90)",
+                "creativeType": "Display",
+                "devices": [
+                    "Desktop"
+                ],
+                "landingPage": "http://bo.com",
+                "targetingType": "Australia State (Geographic)",
+                "targetingOptions": [
+                    "Australian Capital Territory"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 3,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPMv",
+                "goal": 1000,
+                "autoCalculateField": "Cost",
+                "ratecardCost": 5,
+                "baseRate": 5,
+                "baseCost": 5,
+                "shareOfVoice": 80
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": true,
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "editData": {
+                "goal": "",
+                "rate": 2
+            },
+            "detailTabData": {
+                "name": "JE CPD Single",
+                "autoGenerateName": false,
+                "publisher": "Adslot Inventory Vendor (S)",
+                "site": "JE Sight",
+                "location": "JE CPD Single",
+                "format": "Leaderboard (728x90)",
+                "creativeType": "Display",
+                "devices": [
+                    "Desktop"
+                ],
+                "landingPage": "http://jesight.com",
+                "targetingType": "",
+                "targetingOptions": [],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": "+90 Days",
+                "purchaseType": "CPD",
+                "goal": 91,
+                "autoCalculateField": "Cost",
+                "ratecardCost": 168.35,
+                "baseRate": 1.85,
+                "baseCost": 168.35,
+                "shareOfVoice": 90
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": true,
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "detailTabData": {
+                "name": "Test prod",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher",
+                "site": "Symphony Media Parent Site",
+                "location": "Test prod",
+                "format": "Medium Rectangle (300x250)",
+                "creativeType": "Display",
+                "devices": [
+                    "Desktop"
+                ],
+                "landingPage": "http://jjohans.com",
+                "targetingType": "Australia State (Geographic)",
+                "targetingOptions": [
+                    "Australian Capital Territory"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 3,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPC",
+                "goal": 1000,
+                "autoCalculateField": "Cost",
+                "ratecardCost": 12,
+                "baseRate": 12,
+                "baseCost": 12,
+                "shareOfVoice": 80
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": true,
+            "inventoryProvider": "ADSLOTBETA",
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "detailTabData": {
+                "name": "TEST MREC",
+                "autoGenerateName": false,
+                "publisher": "Adslot Inventory Vendor (S)",
+                "site": "Symphony Integration Test",
+                "location": "TEST MREC",
+                "format": "Custom",
+                "creativeType": "Display",
+                "devices": [
+                    "Desktop"
+                ],
+                "landingPage": "http://ATESTING.adslot.com",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 10.01,
+                "baseRate": 5,
+                "baseCost": 7.5,
+                "shareOfVoice": 80
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "true",
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "detailTabData": {
+                "name": "Symphony M_Symphony M_L10_F10_1x1__Test targeting",
+                "autoGenerateName": true,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "location": "L10",
+                "format": "F10 (1x1)",
+                "creativeType": "Standard Display",
+                "devices": [
+                    "Desktop"
+                ],
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 5,
+                "ratecardCost": 7.5,
+                "baseRate": 5,
+                "baseCost": 7.5,
+                "shareOfVoice": 80
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "true",
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "AG CPA, Desktop Proto Single Placement, Should convert",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "location": "L10",
+                "format": "F10 (1x1)",
+                "creativeType": "Standard Display",
+                "devices": [
+                    "Desktop"
+                ],
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPA",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 5,
+                "ratecardCost": 7.5,
+                "baseRate": 5,
+                "baseCost": 7.5
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "true",
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "AG CPV, Mobile Proto Single Placement, Should convert",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "location": "L10",
+                "format": "F10 (1x1)",
+                "creativeType": "Standard Display",
+                "devices": [
+                    "Mobile"
+                ],
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPV",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 5,
+                "ratecardCost": 7.5,
+                "baseRate": 5,
+                "baseCost": 7.5
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "true",
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "AG CPCV, Tablet Proto Single Placement, Should convert",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "location": "L10",
+                "format": "F10 (1x1)",
+                "creativeType": "Standard Display",
+                "devices": [
+                    "Tablet"
+                ],
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "Cost Per Completed View",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 5,
+                "ratecardCost": 7.5,
+                "baseRate": 5,
+                "baseCost": 7.5
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "true",
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "AG Cost Per Engagement Session, Tablet Proto Single Placement, Should convert",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "location": "L10",
+                "format": "F10 (1x1)",
+                "creativeType": "Standard Display",
+                "devices": [
+                    "Tablet"
+                ],
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "Cost Per Engagement Session",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 5,
+                "ratecardCost": 7.5,
+                "baseRate": 5,
+                "baseCost": 7.5
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "false",
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "RFP Cost Per Engagement Session, Console Single Placement, Should not convert",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "location": "L10",
+                "format": "F10 (1x1)",
+                "creativeType": "Standard Display",
+                "devices": [
+                    "Console"
+                ],
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "Cost Per Engagement Session",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 5,
+                "ratecardCost": 7.5,
+                "baseRate": 5,
+                "baseCost": 7.5
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "false",
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "Symphony M_Symphony M_L10_F10_1x1__Test targeting",
+                "autoGenerateName": true,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "location": "L10",
+                "format": "F10 (1x1)",
+                "creativeType": "Standard Display",
+                "devices": [
+                    "Tablet"
+                ],
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "Cost Per Period",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 5,
+                "ratecardCost": 7.5,
+                "baseRate": 5,
+                "baseCost": 7.5
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": false,
+            "inventoryProvider": "SYMPHONY",
+            "isImportedItem": true,
+            "detailTabData": {
+                "name": "Symphony Media Parent Site",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "location": "L10",
+                "creativeType": "Standard Display"
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "true",
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "AG Fixed, Tablet Proto Single Placement, Should convert",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "location": "L10",
+                "format": "F10 (1x1)",
+                "creativeType": "Standard Display",
+                "devices": [
+                    "Tablet"
+                ],
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "FIXED",
+                "goal": 10,
+                "ratecardCost": 2,
+                "baseCost": 10
+            }
+        }
+    ],
+    "performancePackages": [
+        {
+            "isAutomatedGuaranteedItem": true,
+            "expectedPackageName": "JE Sight EU CPM Package",
+            "inventoryProvider": "ADSLOTDEMO",
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "detailTabData": {
+                "name": "JE Sight EU CPM Package",
+                "autoGenerateName": true,
+                "publisher": "Adslot Inventory Vendor (S)",
+                "site": "JE Sight",
+                "location": "Site Location 1",
+                "format": "Publisher Format 1 (468x60)",
+                "creativeType": "Video",
+                "devices": [
+                    "Mobile"
+                ],
+                "landingPage": "http://www.adslot.com",
+                "targetingType": "Australia State (Geographic)",
+                "targetingOptions": [
+                    "Australian Capital Territory"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 5,
+                "baseRate": 4,
+                "baseCost": 6,
+                "shareOfVoice": 80
+            },
+            "costsTabData": {
+                "vendorAdjustments": [
+                    {
+                        "adjustmentName": "Digital Tax",
+                        "cost": 15
+                    },
+                    {
+                        "adjustmentName": "Prepay Discount",
+                        "cost": 7
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": true,
+            "inventoryProvider": "ADSLOTDEMO",
+            "expectedPackageName": "Test New Product Description",
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "detailTabData": {
+                "name": "Test New Product Description",
+                "autoGenerateName": true,
+                "publisher": "Adslot Inventory Vendor (S)",
+                "site": "Facilitate Digital",
+                "location": "Test New Product Description",
+                "format": "Leaderboard (728x90)",
+                "creativeType": "Display",
+                "devices": [
+                    "Desktop"
+                ],
+                "landingPage": "http://jesight.com",
+                "targetingType": "Australia State (Geographic)",
+                "targetingOptions": [
+                    "Australian Capital Territory"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Cost",
+                "ratecardCost": 22.5,
+                "baseRate": 5,
+                "baseCost": 7.5,
+                "shareOfVoice": 80
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": true,
+            "inventoryProvider": "ADSLOTBETA",
+            "expectedPackageName": "AG Package",
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "detailTabData": {
+                "name": "AG Package",
+                "autoGenerateName": true,
+                "publisher": "Adslot Inventory Vendor (S)",
+                "site": "Symphony Integration Test",
+                "location": "AG Package",
+                "format": "Custom",
+                "creativeType": "Video",
+                "devices": [
+                    "Mobile"
+                ],
+                "landingPage": "http://www.adslot.com",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 5,
+                "baseRate": 4,
+                "baseCost": 6,
+                "shareOfVoice": 80
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "true",
+            "inventoryProvider": "ADSLOTDEMO",
+            "expectedPackageName": "RFP to AG Package",
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "detailTabData": {
+                "name": "RFP to AG Package",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 8,
+                "ratecardCost": 12,
+                "baseRate": 4,
+                "baseCost": 6,
+                "shareOfVoice": 80
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "Standard Display",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Mobile"
+                        ]
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "Standard Display",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Mobile"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "true",
+            "inventoryProvider": "ADSLOTDEMO",
+            "expectedPackageName": "AG CPA, Desktop Proto Performance Package",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "AG CPA, Desktop Proto Performance Package",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPA",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 8,
+                "ratecardCost": 12,
+                "baseRate": 4,
+                "baseCost": 6
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "Standard Display",
+                        "package": "",
+                        "devices": [
+                            "Desktop"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "true",
+            "inventoryProvider": "ADSLOTDEMO",
+            "expectedPackageName": "AG CPV, Mobile Proto Performance Package",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "AG CPV, Mobile Proto Performance Package",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "CPV",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 8,
+                "ratecardCost": 12,
+                "baseRate": 4,
+                "baseCost": 6
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "Standard Display",
+                        "package": "",
+                        "devices": [
+                            "Mobile"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "true",
+            "inventoryProvider": "ADSLOTDEMO",
+            "expectedPackageName": "AG CPCV, Tablet Proto Performance Package",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "AG CPCV, Tablet Proto Performance Package",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "Cost Per Completed View",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 8,
+                "ratecardCost": 12,
+                "baseRate": 4,
+                "baseCost": 6
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "Standard Display",
+                        "package": "",
+                        "devices": [
+                            "Mobile"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "true",
+            "inventoryProvider": "ADSLOTDEMO",
+            "expectedPackageName": "AG Cost Per Engagement Session, Tablet Proto Performance Package",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "AG Cost Per Engagement Session, Tablet Proto Performance Package",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "Cost Per Engagement Session",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 8,
+                "ratecardCost": 12,
+                "baseRate": 4,
+                "baseCost": 6
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "Standard Display",
+                        "package": "",
+                        "devices": [
+                            "Tablet"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "false",
+            "inventoryProvider": "ADSLOTDEMO",
+            "expectedPackageName": "RFP Cost Per Engagement Session, Console Performance Package",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "AG Cost Per Engagement Session, Console Proto Performance Package",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "Cost Per Engagement Session",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 8,
+                "ratecardCost": 12,
+                "baseRate": 4,
+                "baseCost": 6
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "Standard Display",
+                        "package": "",
+                        "devices": [
+                            "Console"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": "false",
+            "inventoryProvider": "ADSLOTDEMO",
+            "expectedPackageName": "RFP Cost Per Period, Tablet Performance Package",
+            "isCancelledItem": false,
+            "detailTabData": {
+                "name": "RFP Cost Per Period, Tablet Performance Package",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "landingPage": "",
+                "targetingType": "Contextual (Custom)",
+                "targetingOptions": [
+                    "Cremorne"
+                ],
+                "targetingComments": "Test targeting comments",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "startDate": " ",
+                "endDate": " ",
+                "purchaseType": "Cost Per Period",
+                "goal": 1500,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 8,
+                "ratecardCost": 12,
+                "baseRate": 4,
+                "baseCost": 6
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "Standard Display",
+                        "package": "",
+                        "devices": [
+                            "Tablet"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isItemGoingToConvertFromRfpToAg": false,
+            "inventoryProvider": "SYMPHONY",
+            "isImportedItem": true,
+            "expectedPackageName": "Imported Performance Package",
+            "detailTabData": {
+                "name": "Imported Performance Package",
+                "autoGenerateName": false,
+                "publisher": "Symphony Media Parent Publisher (S)",
+                "site": "Symphony Media Parent Site",
+                "purchaseType": "CPM",
+                "goal": 0
+            }
+        }
+    ],
+    "nonMediaCostData": [
+        {
+            "isCancelled": true,
+            "editNonMediaCostData": {
+                "name": "Non Media Cost Test Edited",
+                "startDate": "",
+                "endDate": "",
+                "agencyCost": "500",
+                "description": "Automation edited costs"
+            },
+            "costsTabData": {
+                "cost": {
+                },
+                "vendorAdjustments": [
+                    {
+                        "adjustmentName": "Discount 1",
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 2",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 3",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 4",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 5",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 6",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Vendor Commissions",
+                        "rate": 1.00000,
+                        "cost": 9.40
+                    },
+                    {
+                        "adjustmentName": "Digital Tax",
+                        "rate": 1.00000,
+                        "cost": 9.31
+                    },
+                    {
+                        "adjustmentName": "Prepay Discount",
+                        "rate": 1.00000,
+                        "cost": 9.31,
+                        "type": "Net Cost incl Digital Tax"
+                    }
+                ],
+                "clientAdjustments": [
+                    {
+                        "adjustmentName": "Agency Fee",
+                        "rate": 4.00000,
+                        "cost": 37.60,
+                        "type": "Net Cost"
+                    }
+                ],
+                "costSummaries": [
+                    {
+                        "costSummaryName": "Purchase Cost",
+                        "agency": "940.00",
+                        "client": "940.00"
+                    },
+                    {
+                        "costSummaryName": "Net Cost",
+                        "agency": "930.60",
+                        "client": "930.60"
+                    },
+                    {
+                        "costSummaryName": "Net Cost incl Digital Tax",
+                        "agency": "939.91",
+                        "client": "939.91"
+                    },
+                    {
+                        "costSummaryName": "Net Cost incl Prepay",
+                        "agency": "930.60",
+                        "client": "930.60"
+                    },
+                    {
+                        "costSummaryName": "Total Cost",
+                        "agency": "930.60",
+                        "client": "968.20"
+                    }
+                ]
+            },
+            "name": "Non Media Test",
+            "startDate": "",
+            "endDate": "",
+            "country": "Australia",
+            "vendor": "Symphony Media Publisher",
+            "category": "Generic",
+            "agencyCost": "1000"
+        }
+    ],
+    "mediaSchedule": {
+        "campaignApprovalData": null
+    },
+    "deviceMarketplaceFilters": [
+        "TV",
+        "Mobile",
+        "Desktop",
+        "Tablet"
+    ],
+    "buyTypeMarketplaceFilters": [
+        "CPA",
+        "CPV",
+        "CPCV",
+        "CPM",
+        "CPD",
+        "CPC",
+        "CPMv",
+        "Fixed"
+    ],
+    "insertionOrderData": {
+        "ioPublisher": "Adslot Inventory Vendor",
+        "isAutomatedGuaranteedInsertionOrder": true
+    }
+}

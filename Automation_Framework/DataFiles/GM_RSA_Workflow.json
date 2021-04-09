@@ -1,0 +1,441 @@
+﻿{
+    "agencyLoginUserData": {
+        "userName": "#{GmRsaUserName}",
+        "password": "#{GmRsaPassword}"
+    },
+    "publisherLoginUserData": {
+        "userName": "#{RsaSubPubUserName}",
+        "password": "#{SubPubPassword}"
+    },
+    "campaignData": {
+        "detailsData": {
+            "campaignName": "GM RSA Workflow",
+            "internalId": "",
+            "autoGenerateName": false,
+            "addToWatchlist": true,
+            "description": "",
+            "startDate": "",
+            "endDate": "",
+            "timingComment": "",
+            "agencyContact": "AFT User RSA",
+            "creativeContact": "",
+            "clientName": "Test Client",
+            "product": "Generic",
+            "thirdPartyAdserver": "Sizmek SAS",
+            "exportMediaCostInformationToAdserver": true,
+            "fourthPartyAdserver": "Other",
+            "traffickingPlacementLevelLandingPage": true,
+            "isCostOfTrackingRate": false,
+            "landingPage": "http://www.adslot.com",
+            "customFields": []
+        },
+        "exchangeRatesData": {
+            "exchangeRateData": [
+                {
+                    "country": "South Africa",
+                    "baseCurrency": "ZAR",
+                    "exchangeCurrency": "KES",
+                    "rate": 5.23
+                }
+            ]
+        },
+        "budgetData": {
+            "budgetData": [
+                {
+                    "country": "South Africa",
+                    "purchaseOrder": "Test Purchase Order",
+                    "currency": "ZAR",
+                    "onlineMediaBudget": 1234567.89
+                }
+            ]
+        },
+        "strategyData": {
+            "objectiveSummary": "",
+            "objectiveOne": "",
+            "objectiveTwo": "",
+            "objectiveThree": "",
+            "isGenderMale": false,
+            "age": [],
+            "targetDemographicComment": "",
+            "otherMedia": []
+        }
+    },
+    "singlePlacements": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "detailTabData": {
+                "name": "RSA_-_Symphony_Media_Publisher_Symphony_Media1_L100_(160x600)_A",
+                "autoGenerateName": true,
+                "publisher": "RSA - Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L100",
+                "format": "F100 (160x600)",
+                "creativeType": "Audio",
+                "devices": [ "Desktop" ],
+                "landingPage": "",
+                "targetingComments": "",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Cost",
+                "isDefaultRate": "true",
+                "currency": "KES",
+                "exchangeRate": "",
+                "ratecardRate": 66.66667,
+                "ratecardCost": 100,
+                "baseRate": 133.33333,
+                "baseCost": 200,
+                "shareOfVoice": ""
+            },
+            "costsTabData": {
+                "vendorAdjustments": [
+                    {
+                        "adjustmentName": "Discount 1",
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 2",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 3",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    }
+                ],
+                "clientAdjustments": [
+                    {
+                        "adjustmentName": "Discount 1",
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 2",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 3",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Agency Fee",
+                        "rate": 4.00000,
+                        "cost": 38.80
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isImportedItem": true,
+            "detailTabData": {
+                "name": "RSA_-_Symphony_Media_Publisher_Symphony_Media1_L100_(160x600)_A",
+                "autoGenerateName": true,
+                "publisher": "RSA - Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L100",
+                "format": "F100 (160x600)",
+                "creativeType": "Audio",
+                "devices": [ "Desktop" ],
+                "landingPage": "",
+                "targetingComments": "",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "CPM",
+                "goal": 1500,
+                "autoCalculateField": "Cost",
+                "isDefaultRate": "true",
+                "currency": "KES",
+                "exchangeRate": "",
+                "ratecardRate": 66.66667,
+                "ratecardCost": 100,
+                "baseRate": 133.33333,
+                "baseCost": 200,
+                "shareOfVoice": ""
+            },
+            "costsTabData": {
+                "vendorAdjustments": [
+                    {
+                        "adjustmentName": "Discount 1",
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 2",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 3",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    }
+                ],
+                "clientAdjustments": [
+                    {
+                        "adjustmentName": "Discount 1",
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 2",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Discount 3",
+                        "BaseCost": true,
+                        "rate": 1.00000,
+                        "cost": 10.00
+                    },
+                    {
+                        "adjustmentName": "Agency Fee",
+                        "rate": 4.00000,
+                        "cost": 38.80
+                    }
+                ]
+            }
+        }
+    ],
+    "performancePackages": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "expectedPackageName": "RSA-SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+            "detailTabData": {
+                "autoGenerateName": true,
+                "publisher": "RSA - Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "startDate": "",
+                "endDate": "",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "currency": "KES",
+                "exchangeRate": "",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 12,
+                "ratecardCost": 12,
+                "baseRate": 6,
+                "baseCost": 6
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isImportedItem": true,
+            "expectedPackageName": "RSA-SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+            "detailTabData": {
+                "autoGenerateName": true,
+                "publisher": "RSA - Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "startDate": "",
+                "endDate": "",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "currency": "KES",
+                "exchangeRate": "",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 12,
+                "ratecardCost": 12,
+                "baseRate": 6,
+                "baseCost": 6
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "billingData": [
+        {
+            "country": "South Africa",
+            "currency": "",
+            "billingItems": [
+                {
+                    "publisher": "RSA - Symphony Media Publisher",
+                    "currency": "KES",
+                    "plannedTotals": "763.91",
+                    "billingAllocationMethod": "Pro Rata",
+                    "override": false
+                }
+            ]
+        }
+    ],
+    "customBillingData": [
+        {
+            "costSources": "2",
+            "currencyType": "",
+            "summaryPlannedTotals": "763.91",
+            "summaryFirstPartyTotals": "0.00",
+            "summaryActualTotals": "763.91",
+            "customBillingItems": [
+                {
+                    "name": "RSA_-_Symphony_Media_Publisher_Symphony_Media1_L100_(160x600)_A",
+                    "currency": "KES",
+                    "plannedTotals": "194.26",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "194.26"
+                },
+                {
+                    "name": "RSA_-_Symphony_Media_Publisher_Symphony_Media1_L10_(1x1)_D",
+                    "currency": "KES",
+                    "plannedTotals": "564.00",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "564.00"
+                },
+                {
+                    "name": "RSA-SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+                    "currency": "KES",
+                    "plannedTotals": "5.65",
+                    "firstPartyTotals": "0.00",
+                    "actualTotals": "5.65"
+                }
+            ]
+        }
+    ],
+    "sponsorshipPackages": [
+        {
+            "sponsorshipPackageName": "Sponsorship Package 1",
+            "publisher": "RSA - Symphony Media Publisher (S)",
+            "singlePlacements": [
+                {
+                    "detailTabData": {
+                        "name": "RSA_-_Symphony_Media_Publisher_Symphony_Media1_L10_(1x1)_D",
+                        "autoGenerateName": true,
+                        "site": "Symphony Media1",
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "Standard Display",
+                        "landingPage": "http://www.adslot.com",
+                        "startDate": "",
+                        "endDate": "",
+                        "goal": 1800,
+                        "autoCalculateField": "Rate",
+                        "currency": "KES",
+                        "exchangeRate": "",
+                        "ratecardRate": 66.66667,
+                        "ratecardCost": 120,
+                        "baseRate": 333.33333,
+                        "baseCost": 600,
+                        "shareOfVoice": 80,
+                        "devices": []
+                    }
+                }
+            ]
+        },
+        {
+            "isImportedItem": true,
+            "sponsorshipPackageName": "Sponsorship Package 2",
+            "publisher": "RSA - Symphony Media Publisher (S)",
+            "singlePlacements": [
+                {
+                    "detailTabData": {
+                        "name": "RSA_-_Symphony_Media_Publisher_Symphony_Media1_L10_(1x1)_D",
+                        "autoGenerateName": true,
+                        "site": "Symphony Media1",
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "Standard Display",
+                        "landingPage": "http://www.adslot.com",
+                        "startDate": "",
+                        "endDate": "",
+                        "goal": 1800,
+                        "autoCalculateField": "Rate",
+                        "currency": "KES",
+                        "exchangeRate": "",
+                        "ratecardRate": 66.66667,
+                        "ratecardCost": 120,
+                        "baseRate": 333.33333,
+                        "baseCost": 600,
+                        "shareOfVoice": 80,
+                        "devices": []
+                    }
+                }
+            ]
+        }
+    ],
+    "insertionOrderData": {
+        "ioPublisher": "RSA - Symphony Media Publisher",
+        "ioName": "",
+        "insertionOrderIssueData": {
+            "agencyBuyer": "",
+            "agencyContact": "",
+            "publisherContact": "AFT User <symphony.qa+subPubRSA@adslot.com>",
+            "uploadDocument": "",
+            "isClientApproved": true
+        }
+    },
+    "mediaSchedule": {
+        "campaignApprovalData": null
+    }
+}

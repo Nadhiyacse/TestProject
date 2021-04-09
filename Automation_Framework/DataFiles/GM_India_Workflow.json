@@ -1,0 +1,203 @@
+﻿{
+    "agencyLoginUserData": {
+        "userName": "#{GmIndiaUserName}",
+        "password": "#{GmIndiaPassword}"
+    },
+    "publisherLoginUserData": {
+        "userName": "#{SubPubUserName}",
+        "password": "#{SubPubPassword}"
+    },
+    "campaignData": {
+        "detailsData": {
+            "campaignName": "GM India Workflow",
+            "internalId": "",
+            "autoGenerateName": false,
+            "addToWatchlist": true,
+            "description": "",
+            "startDate": "",
+            "endDate": "",
+            "timingComment": "",
+            "agencyContact": "AFT User IN",
+            "creativeContact": "",
+            "clientName": "Test Client",
+            "product": "Generic",
+            "thirdPartyAdserver": "Sizmek SAS",
+            "exportMediaCostInformationToAdserver": true,
+            "fourthPartyAdserver": "Other",
+            "traffickingPlacementLevelLandingPage": true,
+            "isCostOfTrackingRate": false,
+            "landingPage": "http://www.adslot.com",
+            "customFields": [
+                {
+                    "name": "HSN Codes",
+                    "type": "MultiSelect",
+                    "values": [
+                        998365
+                    ]
+                }
+            ]
+        }
+    },
+    "singlePlacements": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isCancelledItem": true,
+            "editData": {
+                "goal": 1500
+            },
+            "detailTabData": {
+                "name": "Symphony_Media_Publisher_Symphony_Media1_L100_(1x1)_D",
+                "autoGenerateName": true,
+                "isImportedItem": true,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L100",
+                "format": "F200 (1x1)",
+                "creativeType": "",
+                "devices": [
+
+                ],
+                "landingPage": "",
+                "targetingComments": "",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "Cost Per Thru Play",
+                "goal": 2223,
+                "autoCalculateField": "Cost",
+                "ratecardRate": 1.82213,
+                "ratecardCost": 4050.59500,
+                "baseRate": 1.82213,
+                "baseCost": 4050.59500,
+                "shareOfVoice": ""
+            }
+        }
+    ],
+
+    "performancePackages": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "expectedPackageName": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+            "isCancelledItem": true,
+            "editData": {
+                "goal": 1500
+            },
+            "detailTabData": {
+                "autoGenerateName": true,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "startDate": "",
+                "endDate": "",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 10,
+                "ratecardCost": 10,
+                "baseRate": 5,
+                "baseCost": 5
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    }
+                ]
+            }
+        }
+
+    ],
+
+    "sponsorshipPackages": [
+        {
+            "sponsorshipPackageName": "Sponsorship Package Placement",
+            "publisher": "Symphony Media Publisher (S)",
+            "singlePlacements": [
+                {
+                    "isCancelledItem": true,
+                    "editData": {
+                        "goal": 700
+                    },
+                    "detailTabData": {
+                        "name": "Sponsorship Single Placement 1",
+                        "site": "Symphony Media1",
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "landingPage": "http://www.adslot.com",
+                        "startDate": "",
+                        "endDate": "",
+                        "goal": 500,
+                        "autoCalculateField": "Rate",
+                        "ratecardRate": 10,
+                        "ratecardCost": 5,
+                        "baseRate": 50,
+                        "baseCost": 25,
+                        "shareOfVoice": "",
+                        "devices": [
+
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+
+    "insertionOrderData": {
+        "ioPublisher": "Symphony Media Publisher",
+        "ioName": "",
+        "insertionOrderIssueData": {
+            "agencyBuyer": "",
+            "agencyContact": "",
+            "publisherContact": "AFT User <symphony.qa+subPub@adslot.com>",
+            "uploadDocument": "",
+            "isClientApproved": true
+        }
+    },
+    "billingData": [
+        {
+            "country": "Australia",
+            "currency": "Base (AUD)",
+            "billingItems": [
+                {
+                    "publisher": "Symphony Media Publisher",
+                    "currency": "AUD",
+                    "plannedTotals": "76.00",
+                    "billingAllocationMethod": "Pro Rata",
+                    "override": false
+                }
+            ]
+        }
+    ],
+    "traffickingData": [
+        {
+            "adServer": "Sizmek SAS",
+            "visibleItemCount": 3
+        }
+    ],
+    "mediaSchedule": {
+        "campaignApprovalData": null
+    }
+}

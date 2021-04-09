@@ -1,0 +1,383 @@
+{
+    "agencyLoginUserData": {
+        "userName": "#{GmChinaUserName}",
+        "password": "#{GmChinaPassword}"
+    },
+    "publisherLoginUserData": {
+        "userName": "#{SubPubUserName}",
+        "password": "#{SubPubPassword}"
+    },
+    "campaignData": {
+        "detailsData": {
+            "campaignName": "TESTING GM China Workflow",
+            "internalId": "",
+            "autoGenerateName": false,
+            "addToWatchlist": true,
+            "description": "",
+            "startDate": "",
+            "endDate": "15 Sep 2021",
+            "timingComment": "",
+            "agencyContact": "AFT User CN",
+            "creativeContact": "",
+            "clientName": "Test Client",
+            "product": "Generic",
+            "thirdPartyAdserver": "AdMonitor",
+            "exportMediaCostInformationToAdserver": true,
+            "fourthPartyAdserver": "Other",
+            "traffickingPlacementLevelLandingPage": true,
+            "isCostOfTrackingRate": false,
+            "landingPage": "http://www.adslot.com",
+            "customFields": [
+            ]
+        }
+    },
+    "singlePlacements": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isImportedItem": true,
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "detailTabData": {
+                "name": "Symphony Media Publisher1 (S)",
+                "autoGenerateName": false,
+                "isImportedItem": true,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L100",
+                "format": "F200 (1x1)",
+                "creativeType": "",
+                "devices": [
+
+                ],
+                "landingPage": "",
+                "targetingComments": "",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "Cost Per Unique Visitor",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "currency": "AUD",
+                "exchangeRate": "",
+                "ratecardRate": 0.01,
+                "ratecardCost": 10,
+                "baseRate": 0.01,
+                "baseCost": 10,
+                "shareOfVoice": ""
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isImportedItem": true,
+            "isCancelledItem": true,
+            "editData": {
+                "goal": ""
+            },
+            "detailTabData": {
+                "name": "Symphony Media Publisher2 (S)",
+                "autoGenerateName": false,
+                "isImportedItem": true,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "location": "L15",
+                "format": "F15 (160x600)",
+                "creativeType": "",
+                "devices": [
+
+                ],
+                "landingPage": "",
+                "targetingComments": "",
+                "frequencyCapImpressions": "",
+                "frequencyCapDuration": "",
+                "frequencyCapInterval": "",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "currency": "AUD",
+                "exchangeRate": "",
+                "ratecardRate": 10,
+                "ratecardCost": 10,
+                "baseRate": 10,
+                "baseCost": 10,
+                "shareOfVoice": ""
+            }
+        }
+    ],
+
+    "performancePackages": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isImportedItem": true,
+            "isCancelledItem": false,
+            "editData": {
+                "goal": 2000
+            },
+            "expectedPackageName": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+            "detailTabData": {
+                "autoGenerateName": true,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "startDate": "15 Mar 2019",
+                "endDate": "18 Mar 2019",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "currency": "AUD",
+                "exchangeRate": "",
+                "purchaseType": "CPM",
+                "goal": 1000,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 10,
+                "ratecardCost": 10,
+                "baseRate": 5,
+                "baseCost": 5
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isImportedItem": true,
+            "isCancelledItem": true,
+            "editData": {
+                "goal": ""
+            },
+            "expectedPackageName": "SymphonyMediaPublisher_SymphonyMedia2_CPM_1000",
+            "detailTabData": {
+                "autoGenerateName": true,
+                "publisher": "Symphony Media Publisher (S)",
+                "site": "Symphony Media1",
+                "startDate": "15 Mar 2019",
+                "endDate": "18 Mar 2019",
+                "frequencyCapImpressions": 100,
+                "frequencyCapDuration": 5,
+                "frequencyCapInterval": "Day",
+                "currency": "AUD",
+                "exchangeRate": "",
+                "purchaseType": "CPM",
+                "goal": 2000,
+                "autoCalculateField": "Rate",
+                "ratecardRate": 10,
+                "ratecardCost": 10,
+                "baseRate": 5,
+                "baseCost": 5
+            },
+            "placementsTabData": {
+                "placements": [
+                    {
+                        "autoGenerateName": true,
+                        "location": "L100",
+                        "format": "F200 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    },
+                    {
+                        "autoGenerateName": true,
+                        "location": "L10",
+                        "format": "F10 (1x1)",
+                        "creativeType": "",
+                        "package": "",
+                        "shareOfVoice": 80,
+                        "devices": [
+                            "Console"
+                        ]
+                    }
+                ]
+            }
+        }
+
+    ],
+
+    "sponsorshipPackages": [
+        {
+            "isImportedItem": true,
+            "sponsorshipPackageName": "Sponsorship Package Placement 1",
+            "publisher": "Symphony Media Publisher (S)",
+            "singlePlacements": [
+                {
+                    "isCancelledItem": false,
+                    "editData": {
+                        "goal": 2000
+                    },
+                    "detailTabData": {
+                        "name": "Symphony_Media_Publisher_Symphony_Media1_L10_(1x1)_D",
+                        "site": "Symphony Media1",
+                        "location": "L16",
+                        "format": "F16 (160x600)",
+                        "landingPage": "http://www.adslot.com",
+                        "startDate": "15 Mar 2019",
+                        "endDate": "18 Apr 2019",
+                        "goal": 500,
+                        "autoCalculateField": "Rate",
+                        "currency": "AUD",
+                        "exchangeRate": "",
+                        "ratecardRate": 24,
+                        "ratecardCost": 12,
+                        "baseRate": 120,
+                        "baseCost": 60,
+                        "shareOfVoice": 80,
+                        "devices": [
+
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "sponsorshipPackageName": "Sponsorship Package Placement 2",
+            "publisher": "Symphony Media Publisher (S)",
+            "singlePlacements": [
+                {
+                    "isImportedItem": true,
+                    "isCancelledItem": true,
+                    "editData": {
+                        "goal": ""
+                    },
+                    "detailTabData": {
+                        "name": "Symphony_Media_Publisher_Symphony_Media2_L10_(1x1)_D",
+                        "site": "Symphony Media1",
+                        "location": "L17",
+                        "format": "F17 (160x600)",
+                        "landingPage": "http://www.adslot.com",
+                        "startDate": "15 Mar 2019",
+                        "endDate": "18 Apr 2019",
+                        "goal": 500,
+                        "autoCalculateField": "Rate",
+                        "currency": "AUD",
+                        "exchangeRate": "",
+                        "ratecardRate": 24,
+                        "ratecardCost": 12,
+                        "baseRate": 120,
+                        "baseCost": 60,
+                        "shareOfVoice": 80,
+                        "devices": [
+
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+
+    "insertionOrderData": {
+        "ioPublisher": "Symphony Media Publisher",
+        "ioName": "",
+        "insertionOrderIssueData": {
+            "agencyBuyer": "",
+            "agencyContact": "",
+            "publisherContact": "AFT User <symphony.qa+subPub@adslot.com>",
+            "uploadDocument": "",
+            "isClientApproved": true
+        }
+    },
+    "billingData": [
+        {
+            "country": "Australia",
+            "currency": "Base (AUD)",
+            "billingItems": [
+                {
+                    "publisher": "Symphony Media Publisher",
+                    "currency": "AUD",
+                    "plannedTotals": "152.00",
+                    "billingAllocationMethod": "Pro Rata",
+                    "override": false
+                }
+            ]
+        }
+    ],
+    "customBillingData": [
+        {
+            "costSources": "1",
+            "currencyType": "",
+            "summaryPlannedTotals": "",
+            "summaryFirstPartyTotals": "",
+            "summaryActualTotals": "",
+            "customBillingItems": [
+                {
+                    "name": "Symphony Media Publisher1 (S)",
+                    "currency": "AUD",
+                    "plannedTotals": "10.00",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "SymphonyMediaPublisher_SymphonyMedia1_CPM_1000",
+                    "currency": "AUD",
+                    "plannedTotals": "6.00",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "Symphony_Media_Publisher_Symphony_Media1_L10_(1x1)_D",
+                    "currency": "AUD",
+                    "plannedTotals": "60.00",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "Symphony Media Publisher2 (S)",
+                    "currency": "AUD",
+                    "plannedTotals": "10.00",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "SymphonyMediaPublisher_SymphonyMedia2_CPM_1000",
+                    "currency": "AUD",
+                    "plannedTotals": "6.00",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                },
+                {
+                    "name": "Symphony_Media_Publisher_Symphony_Media2_L10_(1x1)_D",
+                    "currency": "AUD",
+                    "plannedTotals": "60.00",
+                    "firstPartyTotals": "",
+                    "actualTotals": ""
+                }
+            ]
+        }
+    ],
+    "mediaSchedule": {
+        "campaignApprovalData": null
+    },
+    "traffickingData": [
+        {
+            "adServer": "AdMonitor"
+        }
+    ]
+}

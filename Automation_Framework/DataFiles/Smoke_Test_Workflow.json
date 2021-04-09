@@ -1,0 +1,122 @@
+﻿{
+    "agencyLoginUserData": {
+        "userName": "#{SmokeTestAgencyUserName}",
+        "password": "#{SmokeTestAgencyPassword}"
+    },
+    "publisherLoginUserData": {
+        "userName": "#{AdslotPubUserName}",
+        "password": "#{AdslotPubPassword}"
+    },
+    "campaignData": {
+        "detailsData": {
+            "campaignName": "Smoke Test Campaign",
+            "internalId": "",
+            "autoGenerateName": false,
+            "addToWatchlist": true,
+            "description": "",
+            "startDate": "",
+            "endDate": "",
+            "timingComment": "",
+            "agencyContact": "Auto Test User",
+            "creativeContact": "",
+            "clientName": "Auto Test Client",
+            "product": "Generic",
+            "thirdPartyAdserver": "Sizmek SAS",
+            "exportMediaCostInformationToAdserver": true,
+            "fourthPartyAdserver": "Other",
+            "traffickingPlacementLevelLandingPage": true,
+            "isCostOfTrackingRate": false,
+            "landingPage": "http://www.adslot.com",
+            "customFields": []
+        }
+    },
+    "singlePlacements": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isImportedItem": true,
+            "inventoryProvider": "",
+            "detailTabData": {
+                "name": "Single Placement",
+                "autoGenerateName": false,
+                "publisher": "Auto Test Publisher",
+                "site": "ASite1",
+                "location": "AL1",
+                "format": "AF1 (1x1)",
+                "creativeType": ""
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": true,
+            "isImportedItem": false,
+            "inventoryProvider": "ADSLOTDEMO",
+            "detailTabData": {
+                "name": "JE Sight CPM EU",
+                "autoGenerateName": false,
+                "publisher": "Adslot Inventory Vendor",
+                "site": "JE Sight",
+                "location": "JE Sight CPM EU",
+                "creativeType": "Standard Display",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "CPM",
+                "autoCalculateField": "Cost",
+                "goal": 1,
+                "baseRate": 0,
+                "baseCost": 0,
+                "ratecardCost": 0.003,
+                "shareOfVoice": 0
+            }
+        }
+    ],
+    "performancePackages": [
+        {
+            "isAutomatedGuaranteedItem": false,
+            "isImportedItem": true,
+            "expectedPackageName": "Performance Package",
+            "inventoryProvider": "",
+            "detailTabData": {
+                "autoGenerateName": true,
+                "name": "Performance Package 1",
+                "publisher": "Auto Test Publisher",
+                "site": "ASite1",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "CPM",
+                "goal": 0
+            }
+        },
+        {
+            "isAutomatedGuaranteedItem": true,
+            "isImportedItem": false,
+            "expectedPackageName": "JE Sight EU CPM Package",
+            "inventoryProvider": "ADSLOTDEMO",
+            "detailTabData": {
+                "name": "JE Sight EU CPM Package",
+                "autoGenerateName": true,
+                "publisher": "Adslot Inventory Vendor",
+                "site": "JE Sight",
+                "location": "Site Location 1",
+                "creativeType": "Standard Display",
+                "startDate": "",
+                "endDate": "",
+                "purchaseType": "CPM",
+                "autoCalculateField": "Cost",
+                "goal": 1,
+                "baseRate": 0,
+                "baseCost": 0,
+                "ratecardCost": 0.005,
+                "shareOfVoice": 0
+            }
+        }
+    ],
+    "sponsorshipPackages": [
+        {
+            "isImportedItem": true,
+            "sponsorshipPackageName": "Sponsorship Package",
+            "publisher": "Auto Test Publisher"
+        }
+    ],
+    "mediaSchedule": {
+        "mediaScheduleExportData": null
+    }
+}
